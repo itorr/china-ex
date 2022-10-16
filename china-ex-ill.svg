@@ -1,106 +1,161 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 26.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="1548px" height="1210px" viewBox="0 0 1548 1210" style="enable-background:new 0 0 1548 1210;" xml:space="preserve">
-<style type="text/css">
-	
-		.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;}
-	
-		.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#FFB57E;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;}
-	
-		.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#FF7E7E;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;}
-	
-		.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#FFE57E;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;}
-	
-		.st4{fill-rule:evenodd;clip-rule:evenodd;fill:#88AEFF;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;}
-	
-		.st5{fill-rule:evenodd;clip-rule:evenodd;fill:#A8FFBE;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;}
-	.st6{fill:#111111;}
-	.st7{font-family:'Tensentype-JiaLiDaYuanJF';}
-	.st8{font-size:30px;}
-	.st9{font-size:60px;}
-</style>
+	 width="1134px" height="976px" viewBox="0 0 1134 976" style="enable-background:new 0 0 1134 976;" xml:space="preserve">
 <g id="地区">
-    <path id="黑龙江" d="M1308,150 1308,308 1102,308 1102,150z"/>
-    <path id="甘肃" d="M793,308 793,679 559,679 559,308z"/>
-    <path id="吉林" d="M1102,308 1102,393 1308,393 1308,308z"/>
-    <path id="内蒙古" d="M1102,150 946,150 946,308 707,308 707,535 934,535 1102,427z"/>
-    <path id="山东" d="M987,563 987,655 1126,655 1126,563z"/>
-    <path id="河北" d="M1069,427H934v180h117v-95h18V427z"/>
-    <rect id="北京" x="971" y="453" width="80" height="52"/>
-    <path id="天津" d="M971,505 1051,505 1051,548 971,548z"/>
-    <path id="西藏" d="M597,887 243,887 243,583 597,583z"/>
-    <path id="新疆" d="M243,583 243,204 559,204 559,583z"/>
-    <path id="河南" d="M987,607 862,607 862,724 987,724z"/>
-    <path id="安徽" d="M1060,655 987,655 987,793 1060,793z"/>
-    <path id="山西" d="M862,535 862,643 934,643 934,535z"/>
-    <path id="湖北" d="M987,805 987,724 862,724 862,805z"/>
-    <path id="青海" d="M650,743 650,512 436,512 436,743z"/>
-    <path id="辽宁" d="M1069,393 1069,512 1223,512 1223,393z"/>
-    <path id="广东" d="M1031,905 887,905 887,986 1031,986z"/>
-    <path id="江苏" d="M1107,655 1107,742 1045,742 1045,655z"/>
-    <path id="江西" d="M1060,923 1060,793 957,793 957,923z"/>
-    <path id="浙江" d="M1060,742 1134,743 1134,850 1060,850z"/>
-    <path id="福建" d="M1031,850 1031,957 1104,957 1104,850z"/>
-    <rect id="上海" x="1090" y="719" width="72" height="47"/>
-    <path id="陕西" d="M793,770 862,770 862,535 793,535z"/>
-    <path id="湖南" d="M862,805 957,805 957,905 862,905z"/>
-    <path id="广西" d="M887,905 745,905 745,986 887,986z"/>
-    <rect id="香港" x="966" y="973" width="42" height="33"/>
-    <rect id="澳门" x="909" y="973" width="45" height="33"/>
-    <path id="贵州" d="M862,826 745,826 745,905 862,905z"/>
-    <rect id="重庆" x="773" y="770" width="89" height="56"/>
-    <path id="四川" d="M773,854 773,770 793,770 793,679 597,679 597,854z"/>
-    <path id="云南" d="M745,854 597,854 597,969 745,969z"/>
-    <path id="宁夏" d="M793,535 707,535 707,631 793,631z"/>
-    <rect id="台湾" x="1126" y="905" width="45" height="87"/>
-    <rect id="海南" x="823" y="1014" width="78" height="46"/>
+	
+		<path id="黑龙江" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;" d="
+		M1100,33v158H894V33H1100z"/>
+	
+		<path id="甘肃" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;" d="
+		M585,191v371H351V191H585z"/>
+	
+		<path id="吉林" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;" d="
+		M894,191v85h206v-85H894z"/>
+	
+		<path id="内蒙古" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;" d="
+		M894,33H738v158H499v227h227l168-108V33z"/>
+	
+		<path id="山东" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;" d="
+		M779,446v92h139v-92H779z"/>
+	
+		<path id="河北" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;" d="
+		M861,310H726v180h117v-95h18V310z"/>
+	
+		<rect id="北京" x="763" y="336" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;" width="80" height="52"/>
+	
+		<path id="天津" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;" d="
+		M763,388h80v43h-80V388z"/>
+	
+		<path id="西藏" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;" d="
+		M389,770H35V466h354V770z"/>
+	
+		<path id="新疆" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;" d="
+		M35,466V87h316v379H35z"/>
+	
+		<path id="河南" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;" d="
+		M779,490H654v117h125V490z"/>
+	
+		<path id="安徽" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;" d="
+		M852,538h-73v138h73V538z"/>
+	
+		<path id="山西" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;" d="
+		M654,418v108h72V418H654z"/>
+	
+		<path id="湖北" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;" d="
+		M779,688v-81H654v81H779z"/>
+	
+		<path id="青海" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;" d="
+		M442,626V395H228v231H442z"/>
+	
+		<path id="辽宁" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;" d="
+		M861,276v119h154V276H861z"/>
+	
+		<path id="广东" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;" d="
+		M823,788H679v81h144V788z"/>
+	
+		<path id="江苏" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;" d="
+		M899,538v87h-62v-87H899z"/>
+	
+		<path id="江西" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;" d="
+		M852,806V676H749v130H852z"/>
+	
+		<path id="浙江" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;" d="
+		M852,625l74,1v107h-74V625z"/>
+	
+		<path id="福建" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;" d="
+		M823,733v107h73V733H823z"/>
+	
+		<rect id="上海" x="882" y="602" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;" width="72" height="47"/>
+	
+		<path id="陕西" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;" d="
+		M585,653h69V418h-69V653z"/>
+	
+		<path id="湖南" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;" d="
+		M654,688h95v100h-95V688z"/>
+	
+		<path id="广西" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;" d="
+		M679,788H537v81h142V788z"/>
+	
+		<rect id="香港" x="758" y="856" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;" width="42" height="33"/>
+	
+		<rect id="澳门" x="701" y="856" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;" width="45" height="33"/>
+	
+		<path id="贵州" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;" d="
+		M654,709H537v79h117V709z"/>
+	
+		<rect id="重庆" x="565" y="653" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;" width="89" height="56"/>
+	
+		<path id="四川" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;" d="
+		M565,737v-84h20v-91H389v175H565z"/>
+	
+		<path id="云南" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;" d="
+		M537,737H389v115h148V737z"/>
+	
+		<path id="宁夏" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;" d="
+		M585,418h-86v96h86V418z"/>
+	
+		<rect id="台湾" x="918" y="788" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;" width="45" height="87"/>
+	
+		<rect id="海南" x="615" y="897" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;" width="78" height="46"/>
 </g>
 <g id="地名">
-	<text transform="matrix(1 0 0 1 867 383)" class="st6 st7 st8">内蒙古</text>
-	<text transform="matrix(1 0 0 1 1159 240)" class="st6 st7 st8">黑龙江</text>
-	<text transform="matrix(1 0 0 1 1174 359)" class="st6 st7 st8">吉林</text>
-	<text transform="matrix(1 0 0 1 1114 464)" class="st6 st7 st8">辽宁</text>
-	<text transform="matrix(1 0 0 1 979 488)" class="st6 st7 st8">北京</text>
-	<text transform="matrix(1 0 0 1 979 536)" class="st6 st7 st8">天津</text>
-	<text transform="matrix(1 0 0 1 959 586)" class="st6 st7 st8">河北</text>
-	<text transform="matrix(1 0 0 1 1069 605)" class="st6 st7 st8">山</text>
-	<text transform="matrix(1 0 0 1 1069 635)" class="st6 st7 st8">东</text>
-	<text transform="matrix(1 0 0 1 893 696)" class="st6 st7 st8">河南</text>
-	<text transform="matrix(1 0 0 1 892 775)" class="st6 st7 st8">湖北</text>
-	<text transform="matrix(1 0 0 1 892 852)" class="st6 st7 st8">湖</text>
-	<text transform="matrix(1 0 0 1 892 882)" class="st6 st7 st8">南</text>
-	<text transform="matrix(1 0 0 1 1054 692)" class="st6 st7 st8">江</text>
-	<text transform="matrix(1 0 0 1 1054 722)" class="st6 st7 st8">苏</text>
-	<text transform="matrix(1 0 0 1 1093 752)" class="st6 st7 st8">上海</text>
-	<text transform="matrix(1 0 0 1 1080 802)" class="st6 st7 st8">浙</text>
-	<text transform="matrix(1 0 0 1 1080 832)" class="st6 st7 st8">江</text>
-	<text transform="matrix(1 0 0 1 1049 901)" class="st6 st7 st8">福</text>
-	<text transform="matrix(1 0 0 1 1049 931)" class="st6 st7 st8">建</text>
-	<text transform="matrix(1 0 0 1 1131 943)" class="st6 st7 st8">台</text>
-	<text transform="matrix(1 0 0 1 1131 973)" class="st6 st7 st8">湾</text>
-	<text transform="matrix(1 0 0 1 830 1047)" class="st6 st7 st8">海南</text>
-	<text transform="matrix(1 0 0 1 927 959)" class="st6 st7 st8">广东</text>
-	<text transform="matrix(1 0 0 1 980 853)" class="st6 st7 st8">江</text>
-	<text transform="matrix(1 0 0 1 980 883)" class="st6 st7 st8">西</text>
-	<text transform="matrix(1 0 0 1 1001 720)" class="st6 st7 st8">安</text>
-	<text transform="matrix(1 0 0 1 1001 750)" class="st6 st7 st8">徽</text>
-	<text transform="matrix(1 0 0 1 881 583)" class="st6 st7 st8">山</text>
-	<text transform="matrix(1 0 0 1 881 613)" class="st6 st7 st8">西</text>
-	<text transform="matrix(1 0 0 1 810 653)" class="st6 st7 st8">陕</text>
-	<text transform="matrix(1 0 0 1 810 683)" class="st6 st7 st8">西</text>
-	<text transform="matrix(1 0 0 1 733 577)" class="st6 st7 st8">宁</text>
-	<text transform="matrix(1 0 0 1 733 607)" class="st6 st7 st8">夏</text>
-	<text transform="matrix(1 0 0 1 617 421)" class="st6 st7 st8">甘</text>
-	<text transform="matrix(1 0 0 1 617 451)" class="st6 st7 st8">肃</text>
-	<text transform="matrix(1 0 0 1 509 637)" class="st6 st7 st8">青海</text>
-	<text transform="matrix(1 0 0 1 661 777)" class="st6 st7 st8">四川</text>
-	<text transform="matrix(1 0 0 1 640 922)" class="st6 st7 st8">云南</text>
-	<text transform="matrix(1 0 0 1 783 956)" class="st6 st7 st8">广西</text>
-	<text transform="matrix(1 0 0 1 774 876)" class="st6 st7 st8">贵州</text>
-	<text transform="matrix(1 0 0 1 785 808)" class="st6 st7 st8">重庆</text>
-	<text transform="matrix(1 0 0 1 312 756)" class="st6 st7 st8">西藏</text>
-	<text transform="matrix(1 0 0 1 371 405)" class="st6 st7 st8">新疆</text>
+	<text transform="matrix(1 0 0 1 659 266)" style="fill:#111111; font-family:'Tensentype-JiaLiDaYuanJF'; font-size:30px;">内蒙古</text>
+	<text transform="matrix(1 0 0 1 951 123)" style="fill:#111111; font-family:'Tensentype-JiaLiDaYuanJF'; font-size:30px;">黑龙江</text>
+	<text transform="matrix(1 0 0 1 966 242)" style="fill:#111111; font-family:'Tensentype-JiaLiDaYuanJF'; font-size:30px;">吉林</text>
+	<text transform="matrix(1 0 0 1 906 347)" style="fill:#111111; font-family:'Tensentype-JiaLiDaYuanJF'; font-size:30px;">辽宁</text>
+	<text transform="matrix(1 0 0 1 773 371)" style="fill:#111111; font-family:'Tensentype-JiaLiDaYuanJF'; font-size:30px;">北京</text>
+	<text transform="matrix(1 0 0 1 773 419)" style="fill:#111111; font-family:'Tensentype-JiaLiDaYuanJF'; font-size:30px;">天津</text>
+	<text transform="matrix(1 0 0 1 753 469)" style="fill:#111111; font-family:'Tensentype-JiaLiDaYuanJF'; font-size:30px;">河北</text>
+	<text transform="matrix(1 0 0 1 861 488)" style="fill:#111111; font-family:'Tensentype-JiaLiDaYuanJF'; font-size:30px;">山</text>
+	<text transform="matrix(1 0 0 1 861 518)" style="fill:#111111; font-family:'Tensentype-JiaLiDaYuanJF'; font-size:30px;">东</text>
+	<text transform="matrix(1 0 0 1 687 579)" style="fill:#111111; font-family:'Tensentype-JiaLiDaYuanJF'; font-size:30px;">河南</text>
+	<text transform="matrix(1 0 0 1 684 658)" style="fill:#111111; font-family:'Tensentype-JiaLiDaYuanJF'; font-size:30px;">湖北</text>
+	<text transform="matrix(1 0 0 1 684 735)" style="fill:#111111; font-family:'Tensentype-JiaLiDaYuanJF'; font-size:30px;">湖</text>
+	<text transform="matrix(1 0 0 1 684 765)" style="fill:#111111; font-family:'Tensentype-JiaLiDaYuanJF'; font-size:30px;">南</text>
+	<text transform="matrix(1 0 0 1 846 575)" style="fill:#111111; font-family:'Tensentype-JiaLiDaYuanJF'; font-size:30px;">江</text>
+	<text transform="matrix(1 0 0 1 846 605)" style="fill:#111111; font-family:'Tensentype-JiaLiDaYuanJF'; font-size:30px;">苏</text>
+	<text transform="matrix(1 0 0 1 888 635)" style="fill:#111111; font-family:'Tensentype-JiaLiDaYuanJF'; font-size:30px;">上海</text>
+	<text transform="matrix(1 0 0 1 872 685)" style="fill:#111111; font-family:'Tensentype-JiaLiDaYuanJF'; font-size:30px;">浙</text>
+	<text transform="matrix(1 0 0 1 872 715)" style="fill:#111111; font-family:'Tensentype-JiaLiDaYuanJF'; font-size:30px;">江</text>
+	<text transform="matrix(1 0 0 1 844 783)" style="fill:#111111; font-family:'Tensentype-JiaLiDaYuanJF'; font-size:30px;">福</text>
+	<text transform="matrix(1 0 0 1 844 813)" style="fill:#111111; font-family:'Tensentype-JiaLiDaYuanJF'; font-size:30px;">建</text>
+	<text transform="matrix(1 0 0 1 925 826)" style="fill:#111111; font-family:'Tensentype-JiaLiDaYuanJF'; font-size:30px;">台</text>
+	<text transform="matrix(1 0 0 1 925 856)" style="fill:#111111; font-family:'Tensentype-JiaLiDaYuanJF'; font-size:30px;">湾</text>
+	<text transform="matrix(1 0 0 1 625 930)" style="fill:#111111; font-family:'Tensentype-JiaLiDaYuanJF'; font-size:30px;">海南</text>
+	<text transform="matrix(1 0 0 1 721 842)" style="fill:#111111; font-family:'Tensentype-JiaLiDaYuanJF'; font-size:30px;">广东</text>
+	<text transform="matrix(1 0 0 1 772 736)" style="fill:#111111; font-family:'Tensentype-JiaLiDaYuanJF'; font-size:30px;">江</text>
+	<text transform="matrix(1 0 0 1 772 766)" style="fill:#111111; font-family:'Tensentype-JiaLiDaYuanJF'; font-size:30px;">西</text>
+	<text transform="matrix(1 0 0 1 793 603)" style="fill:#111111; font-family:'Tensentype-JiaLiDaYuanJF'; font-size:30px;">安</text>
+	<text transform="matrix(1 0 0 1 793 633)" style="fill:#111111; font-family:'Tensentype-JiaLiDaYuanJF'; font-size:30px;">徽</text>
+	<text transform="matrix(1 0 0 1 675 466)" style="fill:#111111; font-family:'Tensentype-JiaLiDaYuanJF'; font-size:30px;">山</text>
+	<text transform="matrix(1 0 0 1 675 496)" style="fill:#111111; font-family:'Tensentype-JiaLiDaYuanJF'; font-size:30px;">西</text>
+	<text transform="matrix(1 0 0 1 604 536)" style="fill:#111111; font-family:'Tensentype-JiaLiDaYuanJF'; font-size:30px;">陕</text>
+	<text transform="matrix(1 0 0 1 604 566)" style="fill:#111111; font-family:'Tensentype-JiaLiDaYuanJF'; font-size:30px;">西</text>
+	<text transform="matrix(1 0 0 1 527 460)" style="fill:#111111; font-family:'Tensentype-JiaLiDaYuanJF'; font-size:30px;">宁</text>
+	<text transform="matrix(1 0 0 1 527 490)" style="fill:#111111; font-family:'Tensentype-JiaLiDaYuanJF'; font-size:30px;">夏</text>
+	<text transform="matrix(1 0 0 1 409 304)" style="fill:#111111; font-family:'Tensentype-JiaLiDaYuanJF'; font-size:30px;">甘</text>
+	<text transform="matrix(1 0 0 1 409 334)" style="fill:#111111; font-family:'Tensentype-JiaLiDaYuanJF'; font-size:30px;">肃</text>
+	<text transform="matrix(1 0 0 1 301 520)" style="fill:#111111; font-family:'Tensentype-JiaLiDaYuanJF'; font-size:30px;">青海</text>
+	<text transform="matrix(1 0 0 1 453 660)" style="fill:#111111; font-family:'Tensentype-JiaLiDaYuanJF'; font-size:30px;">四川</text>
+	<text transform="matrix(1 0 0 1 432 805)" style="fill:#111111; font-family:'Tensentype-JiaLiDaYuanJF'; font-size:30px;">云南</text>
+	<text transform="matrix(1 0 0 1 579 839)" style="fill:#111111; font-family:'Tensentype-JiaLiDaYuanJF'; font-size:30px;">广西</text>
+	<text transform="matrix(1 0 0 1 568 759)" style="fill:#111111; font-family:'Tensentype-JiaLiDaYuanJF'; font-size:30px;">贵州</text>
+	<text transform="matrix(1 0 0 1 579 691)" style="fill:#111111; font-family:'Tensentype-JiaLiDaYuanJF'; font-size:30px;">重庆</text>
+	<text transform="matrix(1 0 0 1 104 639)" style="fill:#111111; font-family:'Tensentype-JiaLiDaYuanJF'; font-size:30px;">西藏</text>
+	<text transform="matrix(1 0 0 1 163 288)" style="fill:#111111; font-family:'Tensentype-JiaLiDaYuanJF'; font-size:30px;">新疆</text>
 </g>
-<text transform="matrix(1 0 0 1 632.9963 236.0002)" class="st6 st7 st9">中国制霸</text>
+<text transform="matrix(1 0 0 1 424.9963 119.0002)" style="fill:#111111; font-family:'Tensentype-JiaLiDaYuanJF'; font-size:60px;">中国制霸</text>
+<text id="分数" transform="matrix(1 0 0 1 35 923.5577)" style="fill:#111111; font-family:'Tensentype-JiaLiDaYuanJF'; font-size:60px;">1分</text>
+<g id="等级">
+	<rect x="983" y="655" style="fill-rule:evenodd;clip-rule:evenodd;fill:#88AEFF;" width="120" height="50"/>
+	<rect x="983" y="605" style="fill-rule:evenodd;clip-rule:evenodd;fill:#A8FFBE;" width="120" height="50"/>
+	<rect x="983" y="555" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFE57E;" width="120" height="50"/>
+	<rect x="983" y="505" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFB57E;" width="120" height="50"/>
+	<rect x="983" y="455" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FF7E7E;" width="120" height="50"/>
+	
+		<rect x="983" y="455" style="fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" width="120" height="250"/>
+	<text transform="matrix(1 0 0 1 998.5709 489.6172)" style="font-family:'Tensentype-JiaLiDaYuanJ'; font-size:30px;">5 居住</text>
+	<text transform="matrix(1 0 0 1 998.6002 540.0001)"><tspan x="0" y="0" style="font-family:'Tensentype-JiaLiDaYuanJ'; font-size:30px;">4 住宿</tspan><tspan x="0" y="50" style="font-family:'Tensentype-JiaLiDaYuanJ'; font-size:30px;">3 游玩</tspan><tspan x="0" y="100" style="font-family:'Tensentype-JiaLiDaYuanJ'; font-size:30px;">2 换乘</tspan><tspan x="0" y="150" style="font-family:'Tensentype-JiaLiDaYuanJ'; font-size:30px;">1 路过</tspan></text>
+</g>
 </svg>

@@ -6,19 +6,19 @@ const closeAll = e=>{
 const data = {};
 const getAllProvinces = _=>[...地区.children];
 const getAllProvinceLevels = _=>getAllProvinces().map(el=>+el.getAttribute('level')||0);
-const setHashURL = _=>{
-    location.hash = '#' + getAllProvinceLevels().join('');
+const localStorageLevelsKey = 'china-ex-levels';
+const saveLevels = _=>{
+    localStorage.setItem(localStorageLevelsKey,getAllProvinceLevels().join(''));
 };
 const isProvinceLevelsRegex = /^\d{34}$/;
-const getHashURLAndSetProvinceLevels = _=>{
-    const hashString = location.hash.substr(1);
-    if(!isProvinceLevelsRegex.test(hashString)) return;
-    const levels = hashString.split('');
+const getProvinceLevelsAndSet = _=>{
+    const levelsString = localStorage.getItem(localStorageLevelsKey);
+    if(!isProvinceLevelsRegex.test(levelsString)) return;
+    const levels = levelsString.split('');
     getAllProvinces().forEach((el,index)=>{
         el.setAttribute('level',levels[index])
     })
 };
-getHashURLAndSetProvinceLevels();
 document.querySelector('svg').addEventListener('click', e=>{
     e.stopPropagation();
 
@@ -41,12 +41,67 @@ document.querySelector('svg').addEventListener('click', e=>{
     setLevelEl.style.top = Math.round(rect.top + rect.height/2 - 128) + 'px';
 });
 document.addEventListener('click',closeAll);
+const calcAll = _=>{
+    const score = getAllProvinceLevels().reduce((acc, v) => {
+        return +acc + v;
+      }, 0);
+    分数.innerHTML = `分数: ${score}`;
+}
 setLevelEl.addEventListener('click',e=>{
     e.stopPropagation();
     const level = e.target.getAttribute('data-level');
     if(!level) return false;
     console.log({level});
     data.provinceEl.setAttribute('level',level);
+
+    calcAll();
     closeAll();
-    setHashURL();
+    saveLevels();
 })
+
+getProvinceLevelsAndSet();
+calcAll();
+
+let fontAPI = `https://lab.magiconch.com/api/fontmin`;
+const getFontFromText = (name,text,onOver=_=>{})=>{
+
+    text += '0';
+    text = Array.from(new Set(text)).sort().join('');
+
+    if(!text) return requestAnimationFrame(onOver);
+
+    const unicode = str2utf8(text).join();
+    const fontURL = `${fontAPI}?name=${name}&unicode=${unicode}`;
+
+    loadFont(name,fontURL,_=>{
+        onOver(_)
+        // style.innerHTML = `html {font-family: a123;}`;
+    })
+}
+
+
+const loadFont = async (fontName,fontURL,callback) => {
+	const fontFace = new FontFace(fontName, `url(${fontURL})`);
+	fontFace.load().then(fontFace => {
+		document.fonts.add(fontFace);
+		callback(fontFace);
+	}).catch(e=>{
+        // console.log(e);
+        callback();
+    })
+};
+function str2utf8(str) {
+    return str.split('').map(s=>s.charCodeAt(0))
+}
+function utf82str(str) {
+    return String.fromCharCode.apply(null,Array.from(str))
+}
+
+
+getFontFromText('JiaLiDaYuanJF','1234567890'+document.body.innerHTML);
+
+
+
+
+const width = 1134;
+const height = 976;
