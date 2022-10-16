@@ -9,6 +9,43 @@
 </head>
 <body>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1134 976">
+<style></style>
+<style>
+text{
+	font-family:JiaLiDaYuanJF-slice,JiaLiDaYuanJF,Tensentype-JiaLiDaYuanJF,sans-serif;
+	fill:#111;
+	font-size:30px;
+}
+#title{font-size:60px;}
+#分数{font-size:60px;}
+#地区 > *{
+    fill:#FFF;
+    fill-rule:evenodd;
+    clip-rule:evenodd;
+    stroke:#000;
+    stroke-width:4;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+
+    cursor: pointer;
+    pointer-events: auto;
+}
+#地区 > *[level="5"]{fill:#FF7E7E;}
+#地区 > *[level="4"]{fill:#FFB57E;}
+#地区 > *[level="3"]{fill:#FFE57E;}
+#地区 > *[level="2"]{fill:#A8FFBE;}
+#地区 > *[level="1"]{fill:#88AEFF;}
+.level-border{
+    fill-rule:evenodd;
+    clip-rule:evenodd;
+    fill:none;
+    stroke:#000000;
+    stroke-width:4;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+    stroke-miterlimit:10;
+}
+</style>
 <text x="425" y="119" id="title">中国制霸</text>
 <g id="地区">
 	<path id="黑龙江" d="M1100,33v158H894V33H1100z"/>
@@ -51,8 +88,8 @@
 	<text x="951" y="123">黑龙江</text>
 	<text x="966" y="242">吉林</text>
 	<text x="906" y="347">辽宁</text>
-	<text x="771" y="371">北京</text>
-	<text x="771" y="419">天津</text>
+	<text x="773" y="371">北京</text>
+	<text x="773" y="419">天津</text>
 	<text x="751" y="469">河北</text>
 	<text x="861" y="488">山</text>
 	<text x="861" y="518">东</text>
@@ -92,20 +129,19 @@
 	<text x="104" y="639">西藏</text>
 	<text x="163" y="288">新疆</text>
 </g>
-
 <text id="分数" x="30" y="923">分数: 0</text>
 <g id="等级">
-	<rect x="983" y="655" level="5" width="120" height="50"/>
-	<rect x="983" y="605" level="4" width="120" height="50"/>
-	<rect x="983" y="555" level="3" width="120" height="50"/>
-	<rect x="983" y="505" level="2" width="120" height="50"/>
-	<rect x="983" y="455" level="1" width="120" height="50"/>
+	<rect x="983" y="655" level="5" width="120" height="50" fill="#FF7E7E"/>
+	<rect x="983" y="605" level="4" width="120" height="50" fill="#FFB57E"/>
+	<rect x="983" y="555" level="3" width="120" height="50" fill="#FFE57E"/>
+	<rect x="983" y="505" level="2" width="120" height="50" fill="#A8FFBE"/>
+	<rect x="983" y="455" level="1" width="120" height="50" fill="#88AEFF"/>
 	<rect x="983" y="455" class="level-border" width="120" height="250"/>
-	<text x="998" y="489">5 居住</text>
-	<text x="998" y="540">4 住宿</text>
-	<text x="998" y="590">3 游玩</text>
-	<text x="998" y="640">2 换乘</text>
-	<text x="998" y="690">1 路过</text>
+	<text x="1000" y="489">居住５</text>
+	<text x="1000" y="540">住宿４</text>
+	<text x="1000" y="590">游玩３</text>
+	<text x="1000" y="640">换乘２</text>
+	<text x="1000" y="690">路过１</text>
 </g>
 </svg>
 <div class="set-level-box">
@@ -117,6 +153,7 @@
     <a data-level="1">路过</a>
     <a data-level="0">没去过</a>
 </div>
+<button>保存成图片</button>
 <script src="document.js"></script>
 </body>
 </html>

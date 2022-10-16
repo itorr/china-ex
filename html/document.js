@@ -19,7 +19,9 @@ const getProvinceLevelsAndSet = _=>{
         el.setAttribute('level',levels[index])
     })
 };
-document.querySelector('svg').addEventListener('click', e=>{
+const svgEl = document.querySelector('svg');
+
+svgEl.addEventListener('click', e=>{
     e.stopPropagation();
 
     const { target: provinceEl } = e;
@@ -71,7 +73,7 @@ const getFontFromText = (name,text,onOver=_=>{})=>{
     if(!text) return requestAnimationFrame(onOver);
 
     const unicode = str2utf8(text).join();
-    const fontURL = `${fontAPI}?name=${name}&unicode=${unicode}`;
+    const fontURL = `${fontAPI}?name=${name}&unicode=${unicode}&type=woff`;
 
     loadFont(name,fontURL,_=>{
         onOver(_)
@@ -98,10 +100,66 @@ function utf82str(str) {
 }
 
 
-getFontFromText('JiaLiDaYuanJF','1234567890'+document.body.innerHTML);
+// getFontFromText('JiaLiDaYuanJF','1234567890'+document.body.innerHTML);
 
+const getFontURL = cb=>{
+    fetch('JiaLiDaYuanJF-slice.woff').then(r=>r.blob()).then(blob=>{
+        const reader = new FileReader();
+        reader.onload = function(e) {
+            const url = e.target.result;
+            cb(url);
+        }
+        reader.readAsDataURL(blob);
+    })
+};
 
-
+getFontURL(url=>{
+    const styleText = `@font-face {
+        font-family: JiaLiDaYuanJF-slice;
+        src: url(${url});
+    };`;
+    svgEl.querySelector('style').innerHTML = styleText;
+    const styleEl = document.createElement('style');
+    styleEl.innerHTML = styleText;
+    document.head.appendChild(styleEl);
+})
 
 const width = 1134;
 const height = 976;
+const size = 2;
+
+const canvas = document.createElement('canvas');
+
+canvas.width = width * size;
+canvas.height = height * size;
+
+const ctx = canvas.getContext('2d');
+
+const saveToImage = _=>{
+    const blob = new Blob([`<?xml version="1.0" encoding="utf-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" width="${width*2}px" height="${height*2}px">${svgEl.innerHTML}</svg>`], {type: 'image/svg+xml'});
+    const image = new Image();
+    image.addEventListener('load',_=>{
+        ctx.fillStyle = '#efb4b4';
+        ctx.fillRect(
+            0,0,
+            width * size,height * size
+        );
+        ctx.drawImage(
+            image,
+            0,0,
+            width * size, height * size,
+            0,0,
+            width * size, height * size
+        );
+        canvas.toBlob(blob=>{
+            const url = URL.createObjectURL(blob);
+            console.log(url)
+            open(url);
+        },'image/png')
+    })
+    image.src = URL.createObjectURL(blob);
+};
+
+document.querySelector('button').addEventListener('click',saveToImage);
+// (new XMLSerializer).serializeToString(svgEl);
+// ctx.drawImage(svgEl,)

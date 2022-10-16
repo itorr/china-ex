@@ -1,0 +1,71 @@
+// @font-face {
+//     font-family: JiaLiDaYuanJF-slice;
+//     src: url(JiaLiDaYuanJF-slice.woff);
+// }
+html{
+    font: 18px/40px JiaLiDaYuanJF-slice,JiaLiDaYuanJF,Tensentype-JiaLiDaYuanJF,sans-serif;
+    background-color: #efb4b4;
+}
+body{
+    margin: 0;
+}
+html,
+body{
+    height:100%;
+    overflow: hidden;
+}
+svg{
+    display: block;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    #地名{
+        pointer-events: none;
+    }
+}
+
+.set-level-box{
+    display: none;
+    position: absolute;
+    background: #FFF;
+    width: 140px;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 3px 6px 0 rgba(0,0,0,.1);
+    border: 4px solid #000;
+    text-align: center;
+    h2{
+        margin: 0;
+        font-weight: normal;
+        font-size: 26px;
+        line-height: 40px;
+        cursor: default;
+    }
+    a{
+        line-height: 24px;
+        cursor: pointer;
+    }
+    h2,
+    a{
+        display: block;
+        padding: 4px 10px;
+        &[data-level="5"]{background:#FF7E7E;}
+        &[data-level="4"]{background:#FFB57E;}
+        &[data-level="3"]{background:#FFE57E;}
+        &[data-level="2"]{background:#A8FFBE;}
+        &[data-level="1"]{background:#88AEFF;}
+    }
+}
+button{
+    font: inherit;
+    font-size: 30px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background:#FFF;
+    padding: 10px;
+    margin: 20px;
+    border: 4px solid #111;
+    border-radius: 2px;
+    cursor: pointer;
+}
