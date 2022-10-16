@@ -1,0 +1,43 @@
+
+html{
+    background-color: #D9A9A9;
+}
+body{
+    margin: 0;
+}
+html,
+body{
+    height:100%;
+    overflow: hidden;
+}
+svg{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#地区{
+    & > *{
+        fill:#FFF;
+        fill-rule:evenodd;
+        clip-rule:evenodd;
+        stroke:#000000;
+        stroke-width:4;
+        stroke-linecap:round;
+        stroke-linejoin:round;
+
+        cursor: pointer;
+        &[level="5"]{fill:#FF7E7E;}
+        &[level="4"]{fill:#FFB57E;}
+        &[level="3"]{fill:#FFE57E;}
+        &[level="2"]{fill:#A8FFBE;}
+        &[level="1"]{fill:#88AEFF;}
+    }
+}
+#地名{
+    pointer-events: none;
+    &>text{
+        fill:#111111;
+        font-family:'Tensentype-JiaLiDaYuanJF';
+        font-size:30px;
+    }
+}
