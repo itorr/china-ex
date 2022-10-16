@@ -112,6 +112,8 @@ const srcToImage = (src,cb)=>{
     el.addEventListener('load',_=>cb(el));
     el.src = src;
 };
+const log = _=>(new Image()).src = `http://localhost:60912/api/china-ex/log?levels=${getAllProvinceLevels().join('')}`;
+
 const saveToImage = _=>{
     const xmlText = `<?xml version="1.0" encoding="utf-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" width="${width*2}px" height="${height*2}px">${svgEl.innerHTML}</svg>`;
     srcToImage(createSVGURLFromXML(xmlText),image=>{
@@ -132,6 +134,7 @@ const saveToImage = _=>{
             save(url,`[神奇海螺][中国制霸]${+new Date()}.png`);
         },'image/png');
     });
+    log();
 };
 
 保存.addEventListener('click',saveToImage);
