@@ -2,9 +2,14 @@
 
 中国三十四省份制霸标记工具
 
+# 地址
+https://lab.magiconch.com/china-ex/
+
 ## 参考 
-项目参考自 https://zhung.com.tw/japanex/
+参考自 https://zhung.com.tw/japanex/
+
 使用矢量图绘制软件，绘制中国矢量地图
+
 输出成 svg 格式图像
 
 ## 使用了

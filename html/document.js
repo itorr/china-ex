@@ -136,7 +136,8 @@ canvas.height = height * size;
 const ctx = canvas.getContext('2d');
 
 const saveToImage = _=>{
-    const blob = new Blob([`<?xml version="1.0" encoding="utf-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" width="${width*2}px" height="${height*2}px">${svgEl.innerHTML}</svg>`], {type: 'image/svg+xml'});
+    const xmlText = `<?xml version="1.0" encoding="utf-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" width="${width*2}px" height="${height*2}px">${svgEl.innerHTML}</svg>`;
+    const blob = new Blob([xmlText], {type: 'image/svg+xml'});
     const image = new Image();
     image.addEventListener('load',_=>{
         ctx.fillStyle = '#efb4b4';
