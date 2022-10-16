@@ -1,6 +1,7 @@
 
 html{
-    background-color: #D9A9A9;
+    font: 16px/20px 'Tensentype-JiaLiDaYuanJF',sans-serif;
+    background-color: #efb4b4;
 }
 body{
     margin: 0;
@@ -14,6 +15,10 @@ svg{
     display: block;
     width: 100%;
     height: 100%;
+    pointer-events: none;
+    #title{
+        font-size: 60px;
+    }
 }
 #地区{
     & > *{
@@ -26,6 +31,7 @@ svg{
         stroke-linejoin:round;
 
         cursor: pointer;
+        pointer-events: auto;
         &[level="5"]{fill:#FF7E7E;}
         &[level="4"]{fill:#FFB57E;}
         &[level="3"]{fill:#FFE57E;}
@@ -37,7 +43,28 @@ svg{
     pointer-events: none;
     &>text{
         fill:#111111;
-        font-family:'Tensentype-JiaLiDaYuanJF';
         font-size:30px;
+    }
+}
+
+.set-level-box{
+    position: absolute;
+    background: #FFF;
+    width: 140px;
+    h2{
+        margin: 0;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    h2,
+    a{
+        display: block;
+        padding: 4px 10px;
+        cursor: pointer;
+        &[data-level="5"]{background:#FF7E7E;}
+        &[data-level="4"]{background:#FFB57E;}
+        &[data-level="3"]{background:#FFE57E;}
+        &[data-level="2"]{background:#A8FFBE;}
+        &[data-level="1"]{background:#88AEFF;}
     }
 }
