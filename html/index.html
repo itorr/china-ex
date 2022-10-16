@@ -19,19 +19,23 @@ text{
 }
 #title{font-size:60px;}
 #分数{font-size:60px;}
-#地区 > *{
-    fill:#FFF;
+#地区 path,
+#地区 rect,
+polyline{
     fill-rule:evenodd;
     clip-rule:evenodd;
     stroke:#000;
     stroke-width:4;
     stroke-linecap:round;
     stroke-linejoin:round;
-
+}
+#地区 path,
+#地区 rect{
+    fill:#FFF;
     cursor: pointer;
     pointer-events: auto;
 }
-#曾母暗沙{fill:none;pointer-events:none;}
+polyline{fill:none;pointer-events:none;}
 #地区 > *[level="5"]{fill:#FF7E7E;}
 #地区 > *[level="4"]{fill:#FFB57E;}
 #地区 > *[level="3"]{fill:#FFE57E;}
@@ -84,9 +88,8 @@ text{
 	<path id="宁夏" d="M585,418h-86v96h86V418z"/>
 	<rect id="台湾" x="918" y="788" width="45" height="87"/>
 	<rect id="海南" x="615" y="897" width="78" height="46"/>
-	<!-- <rect id="曾母暗沙" x="1002" y="775" width="80" height="114"/> -->
-	<polyline id="曾母暗沙" points="827,941 827,897 908,897 908,941"/>
 </g>
+<polyline id="曾母暗沙" points="827,941 827,897 908,897 908,941"/>
 <g id="地名">
 	<text x="659" y="266">内蒙古</text>
 	<text x="951" y="123">黑龙江</text>
