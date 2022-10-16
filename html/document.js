@@ -64,44 +64,6 @@ setLevelEl.addEventListener('click',e=>{
 getProvinceLevelsAndSet();
 calcAll();
 
-let fontAPI = `https://lab.magiconch.com/api/fontmin`;
-const getFontFromText = (name,text,onOver=_=>{})=>{
-
-    text += '0';
-    text = Array.from(new Set(text)).sort().join('');
-
-    if(!text) return requestAnimationFrame(onOver);
-
-    const unicode = str2utf8(text).join();
-    const fontURL = `${fontAPI}?name=${name}&unicode=${unicode}&type=woff`;
-
-    loadFont(name,fontURL,_=>{
-        onOver(_)
-        // style.innerHTML = `html {font-family: a123;}`;
-    })
-}
-
-
-const loadFont = async (fontName,fontURL,callback) => {
-	const fontFace = new FontFace(fontName, `url(${fontURL})`);
-	fontFace.load().then(fontFace => {
-		document.fonts.add(fontFace);
-		callback(fontFace);
-	}).catch(e=>{
-        // console.log(e);
-        callback();
-    })
-};
-function str2utf8(str) {
-    return str.split('').map(s=>s.charCodeAt(0))
-}
-function utf82str(str) {
-    return String.fromCharCode.apply(null,Array.from(str))
-}
-
-
-getFontFromText('JiaLiDaYuanJF','1234567890'+document.body.innerHTML);
-
 const getFontURL = cb=>{
     fetch('JiaLiDaYuanJF-slice.woff').then(r=>r.blob()).then(blob=>{
         const reader = new FileReader();
@@ -122,7 +84,7 @@ getFontURL(url=>{
     const styleEl = document.createElement('style');
     styleEl.innerHTML = styleText;
     document.head.appendChild(styleEl);
-})
+});
 
 const width = 1134;
 const height = 976;
@@ -145,10 +107,14 @@ const save =(url,filename)=>{
     a.href = url;
     a.click();
 }
+const srcToImage = (src,cb)=>{
+    const el = new Image();
+    el.addEventListener('load',_=>cb(el));
+    el.src = src;
+};
 const saveToImage = _=>{
     const xmlText = `<?xml version="1.0" encoding="utf-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" width="${width*2}px" height="${height*2}px">${svgEl.innerHTML}</svg>`;
-    const image = new Image();
-    image.addEventListener('load',_=>{
+    srcToImage(createSVGURLFromXML(xmlText),image=>{
         ctx.fillStyle = '#efb4b4';
         ctx.fillRect(
             0,0,
@@ -165,10 +131,7 @@ const saveToImage = _=>{
             const url = URL.createObjectURL(blob);
             save(url,`[神奇海螺][中国制霸]${+new Date()}.png`);
         },'image/png');
-    })
-    image.src = createSVGURLFromXML(xmlText);
+    });
 };
 
 保存.addEventListener('click',saveToImage);
-// (new XMLSerializer).serializeToString(svgEl);
-// ctx.drawImage(svgEl,)
