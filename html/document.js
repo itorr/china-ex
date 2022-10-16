@@ -100,7 +100,7 @@ function utf82str(str) {
 }
 
 
-// getFontFromText('JiaLiDaYuanJF','1234567890'+document.body.innerHTML);
+getFontFromText('JiaLiDaYuanJF','1234567890'+document.body.innerHTML);
 
 const getFontURL = cb=>{
     fetch('JiaLiDaYuanJF-slice.woff').then(r=>r.blob()).then(blob=>{
@@ -169,6 +169,6 @@ const saveToImage = _=>{
     image.src = createSVGURLFromXML(xmlText);
 };
 
-document.querySelector('button').addEventListener('click',saveToImage);
+保存.addEventListener('click',saveToImage);
 // (new XMLSerializer).serializeToString(svgEl);
 // ctx.drawImage(svgEl,)
