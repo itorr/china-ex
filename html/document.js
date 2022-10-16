@@ -135,9 +135,18 @@ canvas.height = height * size;
 
 const ctx = canvas.getContext('2d');
 
+const createSVGURLFromXML = xmlText=>{
+    const blob = new Blob([xmlText], {type: 'image/svg+xml'});
+    return URL.createObjectURL(blob);
+};
+const save =(url,filename)=>{
+    const a = document.createElement('a');
+    a.download = filename;
+    a.href = url;
+    a.click();
+}
 const saveToImage = _=>{
     const xmlText = `<?xml version="1.0" encoding="utf-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" width="${width*2}px" height="${height*2}px">${svgEl.innerHTML}</svg>`;
-    const blob = new Blob([xmlText], {type: 'image/svg+xml'});
     const image = new Image();
     image.addEventListener('load',_=>{
         ctx.fillStyle = '#efb4b4';
@@ -154,11 +163,10 @@ const saveToImage = _=>{
         );
         canvas.toBlob(blob=>{
             const url = URL.createObjectURL(blob);
-            console.log(url)
-            open(url);
-        },'image/png')
+            save(url,`[神奇海螺][中国制霸]${+new Date()}.png`);
+        },'image/png');
     })
-    image.src = URL.createObjectURL(blob);
+    image.src = createSVGURLFromXML(xmlText);
 };
 
 document.querySelector('button').addEventListener('click',saveToImage);
