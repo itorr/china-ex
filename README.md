@@ -1,6 +1,6 @@
 ![中国制霸生成器](simple.png)
 # 中国制霸生成器
-中国三十四省份制霸标记工具
+中国三十四省级行政区域制霸标记生成工具
 
 https://lab.magiconch.com/china-ex/
 
