@@ -112,7 +112,7 @@ const srcToImage = (src,cb)=>{
     el.addEventListener('load',_=>cb(el));
     el.src = src;
 };
-const log = _=>(new Image()).src = `/api/china-ex/log?levels=${getAllProvinceLevels().join('')}`;
+const log = _=>(new Image()).src = `https://lab.magiconch.com/api/china-ex/log?levels=${getAllProvinceLevels().join('')}`;
 
 const saveToImage = _=>{
     const xmlText = `<?xml version="1.0" encoding="utf-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" width="${width*2}px" height="${height*2}px">${svgEl.innerHTML}</svg>`;
