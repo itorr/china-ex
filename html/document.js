@@ -140,7 +140,7 @@ const 地址变图像元素 = (地址,回调)=>{
     添加事件监控(图,'load',_=>回调(图));
     图.src = 地址;
 };
-const 日志 = _=>(新建图()).src = `https://lab.magiconch.com/api/china-ex/日志?等级s=${获取所有省等级们().join('')}`;
+const 日志 = _=>(新建图()).src = `https://lab.magiconch.com/api/china-ex/log?levels=${获取所有省等级们().join('')}`;
 
 const 保存图像 = _=>{
     const 文档文本 = `<?xml version="1.0" encoding="utf-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${宽} ${高}" width="${宽}px" height="${高}px">${图形.innerHTML}</svg>`;
