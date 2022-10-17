@@ -28,20 +28,22 @@ const 获取等级们并生效 = _=>{
 };
 const 图形 = 文档.querySelector('svg');
 const 设置等级样式 = 设置等级.style;
+const 获取元素方位 = 元素 => 元素.getBoundingClientRect()
 添加事件监控(图形,'click', e=>{
     e.stopPropagation();
 
     const { target: 省元素 } = e;
-    const 方位 = 省元素.getBoundingClientRect();
+    const 省元素方位 = 获取元素方位(省元素);
     const { id } = 省元素;
     数据.省元素 = 省元素;
     数据.id = id;
 
     设置等级标题.innerHTML = id;
     设置等级样式.display = 'block';
+    const 设置等级元素方位 = 获取元素方位(设置等级);
     
-    设置等级样式.left = Math.round(方位.left + 方位.width/2 - 74) + 'px';
-    设置等级样式.top = Math.round(方位.top + 方位.height/2 - 128) + 'px';
+    设置等级样式.left = Math.round(省元素方位.left + 省元素方位.width/2 - 设置等级元素方位.width/2) + 'px';
+    设置等级样式.top = Math.round(省元素方位.top + 省元素方位.height/2 - 设置等级元素方位.height/2) + 'px';
 });
 添加事件监控(文档,'click',全关闭);
 const 计分 = _=>{
