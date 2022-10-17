@@ -102,11 +102,14 @@ const 从文档文本新建图形文件 = 文档文本=>{
     const 原始数据 = new Blob([文档文本], {type: 'image/svg+xml'});
     return URL.createObjectURL(原始数据);
 };
-const 下载文件 =(链接,文件名)=>{
-    const 元素 = 新建元素('a');
-    元素.download = 文件名;
+const 是社交媒体 = /weibo|qq/i.test(navigator.userAgent);
+// alert(navigator.userAgent)
+const 下载文件 = (链接,文件名,元素 = 新建元素('a'))=>{
+    // if(!是社交媒体){
+    //     元素.download = 文件名;
+    // }
     元素.href = 链接;
-    元素.click();
+    // 元素.click();
 }
 const 地址变图像元素 = (地址,回调)=>{
     const 图 = 新建图();
@@ -116,7 +119,7 @@ const 地址变图像元素 = (地址,回调)=>{
 const 日志 = _=>(新建图()).src = `https://lab.magiconch.com/api/china-ex/日志?等级s=${获取所有省等级们().join('')}`;
 
 const 保存图像 = _=>{
-    const 文档文本 = `<?xml version="1.0" encoding="utf-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${宽} ${高}" 宽="${宽*2}px" 高="${高*2}px">${图形.innerHTML}</svg>`;
+    const 文档文本 = `<?xml version="1.0" encoding="utf-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${宽} ${高}" 宽="${宽}px" 高="${高}px">${图形.innerHTML}</svg>`;
     地址变图像元素(从文档文本新建图形文件(文档文本),图=>{
         上下文.fillStyle = '#efb4b4';
         上下文.fillRect(
@@ -126,13 +129,13 @@ const 保存图像 = _=>{
         上下文.drawImage(
             图,
             0,0,
-            宽 * 比, 高 * 比,
+            宽, 高,
             0,(宽 - 高) * 比 / 2,
             宽 * 比, 高 * 比
         );
         画板.toBlob(元素数据=>{
             const 地址 = URL.createObjectURL(元素数据);
-            下载文件(地址,`[神奇海螺][中国制霸]${+new Date()}.png`);
+            下载文件(地址,`[神奇海螺][中国制霸]${+new Date()}.png`,保存);
         },'image/png');
     });
     日志();
