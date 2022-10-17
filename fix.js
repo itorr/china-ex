@@ -94,4 +94,7 @@ getFontFromText(`JiaLiDaYuanJF`,`1234567890中国制霸
 换乘２
 路过１
 没去过
-labGitHub保存成图片`+document.body.innerHTML);
+labGitHub保存成图片
+手机端可长按图片 “添加到照片”
+
+关闭`+document.body.innerHTML);

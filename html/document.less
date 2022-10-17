@@ -3,9 +3,10 @@
 //     src: url(JiaLiDaYuanJF-slice.woff);
 // }
 html{
-    font: 18px/40px JiaLiDaYuanJF-slice,sans-serif;
+    font: 18px/40px slice,sans-serif;
     // JiaLiDaYuanJF,Tensentype-JiaLiDaYuanJF,
     background-color: #efb4b4;
+    color: #111;
 }
 body{
     margin: 0;
@@ -23,6 +24,11 @@ svg{
     #地名{
         pointer-events: none;
     }
+}
+a{
+    color: #111;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 #设置等级{
@@ -57,6 +63,11 @@ svg{
         &[data-level="1"]{background:#88AEFF;}
     }
 }
+.按钮{
+    background: #FFF;
+    box-shadow: 0 0 0 4px #111;
+    border-radius: 3px;
+}
 footer{
     position: absolute;
     right: 0;
@@ -68,17 +79,36 @@ footer{
     a{
         float: left;
         padding: 8px 12px;
-        color: #111;
-        text-decoration: none;
         margin-left: 4px;
         &.按钮{
-            background: #FFF;
-            // border: 4px solid #111;
-            box-shadow: 0 0 0 4px #111;
-            border-radius: 3px;
-            cursor: pointer;
             margin-left: 10px;
         }
+    }
+}
+#输出图像{
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background:#FFF;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    img{
+        display: block;
+        width: 480px;
+        height: 480px;
+        margin: 0 auto;
+        box-shadow: 0 5px 20px rgba(0,0,0,.1);
+    }
+    .按钮{
+        padding: 8px 12px;
+        box-shadow: 0 0 0 2px #111;
     }
 }
 @media (max-width:800px) {
@@ -91,10 +121,10 @@ footer{
         margin: 10px;
         a{
             padding: 6px 8px;
-            &.按钮{
-                box-shadow: 0 0 0 2px #111;
-            }
         }
+    }
+    .按钮{
+        box-shadow: 0 0 0 2px #111;
     }
     #设置等级{
         width: 110px;
@@ -112,6 +142,12 @@ footer{
 @media (max-width:480px) and (min-height:600px) {
     footer{
         bottom: 50px;
+    }
+    #输出图像{
+        img{
+            width: 90vw;
+            height: 90vw;
+        }
     }
 }
 
