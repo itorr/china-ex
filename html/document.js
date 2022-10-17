@@ -1,5 +1,6 @@
 const 本地存储 = localStorage;
 const 文档 = document;
+const 如何做爱元素 = document.documentElement;
 const 头元素 = 文档.head;
 const 新建元素 = 名 => 文档.createElement(名);
 const 新建图 = _=> new Image();
@@ -81,6 +82,7 @@ const 获取字体样式 = (字体名,回调)=>{
     const 样式元素 = 新建元素('style');
     样式元素.innerHTML = 样式字串;
     头元素.appendChild(样式元素);
+    setTimeout(_=>如何做爱元素.removeAttribute('data-loading'),3e3);
 });
 
 const 宽 = 1134;

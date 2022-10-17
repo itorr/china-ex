@@ -64,6 +64,7 @@ footer{
     margin: 20px;
     font-size: 24px;
     line-height: 30px;
+    transition: opacity 1s ease;
     a{
         float: left;
         padding: 8px 12px;
@@ -92,4 +93,13 @@ footer{
             }
         }
     } 
+}
+
+html{
+    &[data-loading]{
+        footer{
+            pointer-events: none;
+            opacity: 0;
+        }
+    }
 }
