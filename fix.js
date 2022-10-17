@@ -98,6 +98,7 @@ getFontFromText(`JiaLiDaYuanJF`,`1234567890中国制霸
 路过１
 出差
 没去过
+香港澳门
 labGitHub保存成图片
 手机端可长按图片 “添加到照片”
 
