@@ -120,8 +120,11 @@ const 地址变图像元素 = (地址,回调)=>{
 const 日志 = _=>(新建图()).src = `https://lab.magiconch.com/api/china-ex/日志?等级s=${获取所有省等级们().join('')}`;
 
 const 保存图像 = _=>{
-    const 文档文本 = `<?xml version="1.0" encoding="utf-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${宽} ${高}" 宽="${宽*比}px" 高="${高*比}px">${图形.innerHTML}</svg>`;
-    地址变图像元素(从文档文本新建图形文件(文档文本),图=>{
+    const 文档文本 = `<?xml version="1.0" encoding="utf-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${宽} ${高}" width="${宽}px" height="${高}px">${图形.innerHTML}</svg>`;
+    const 数据地址 = 从文档文本新建图形文件(文档文本);
+    // open(数据地址);
+    // return ;
+    地址变图像元素(数据地址,图=>{
         上下文.fillStyle = '#efb4b4';
         上下文.fillRect(
             0,0,
@@ -130,7 +133,7 @@ const 保存图像 = _=>{
         上下文.drawImage(
             图,
             0,0,
-            宽*比, 高*比,
+            宽,高,
             0,(宽 - 高) * 比 / 2,
             宽 * 比, 高 * 比
         );
