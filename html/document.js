@@ -94,7 +94,7 @@ const 比 = 2;
 const 画板 = 新建元素('canvas');
 
 画板.width = 宽 * 比;
-画板.height = 高 * 比;
+画板.height = 宽 * 比;
 
 const 上下文 = 画板.getContext('2d');
 
@@ -121,13 +121,13 @@ const 保存图像 = _=>{
         上下文.fillStyle = '#efb4b4';
         上下文.fillRect(
             0,0,
-            宽 * 比,高 * 比
+            宽 * 比,宽 * 比
         );
         上下文.drawImage(
             图,
             0,0,
             宽 * 比, 高 * 比,
-            0,0,
+            0,(宽 - 高) * 比 / 2,
             宽 * 比, 高 * 比
         );
         画板.toBlob(元素数据=>{
