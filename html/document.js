@@ -6,6 +6,9 @@ const 头元素 = 文档.head;
 const 新建元素 = 名 => 文档.createElement(名);
 const 新建图 = _=> new Image();
 const 添加事件监控 = (元素,事件,回调) => 元素[`on${事件}`] = 回调;// 元素.addEventListener(事件,回调);
+const 获取元素方位 = 元素 => 元素.getBoundingClientRect();
+
+
 const 设置等级标题 = 设置等级.children[0];
 
 const 全关闭 = _=>{
@@ -29,7 +32,7 @@ const 获取等级们并生效 = _=>{
 };
 const 图形 = 文档.querySelector('svg');
 const 设置等级样式 = 设置等级.style;
-const 获取元素方位 = 元素 => 元素.getBoundingClientRect()
+const 最小间距 = 6;
 添加事件监控(图形,'click', e=>{
     e.stopPropagation();
 
@@ -43,8 +46,28 @@ const 获取元素方位 = 元素 => 元素.getBoundingClientRect()
     设置等级样式.display = 'block';
     const 设置等级元素方位 = 获取元素方位(设置等级);
     
-    设置等级样式.left = Math.round(省元素方位.left + 省元素方位.width/2 - 设置等级元素方位.width/2) + 'px';
-    设置等级样式.top = Math.round(省元素方位.top + 省元素方位.height/2 - 设置等级元素方位.height/2) + 'px';
+    let 左 = Math.round(省元素方位.left + 省元素方位.width/2 - 设置等级元素方位.width/2);
+    左 = Math.min(
+        左,
+        document.body.offsetWidth - 设置等级元素方位.width - 最小间距
+    );
+    左 = Math.max(
+        左,
+        最小间距
+    );
+
+    let 上 = Math.round(省元素方位.top + 省元素方位.height/2 - 设置等级元素方位.height/2);
+    上 = Math.min(
+        上,
+        document.body.offsetHeight - 设置等级元素方位.height - 最小间距
+    );
+    上 = Math.max(
+        上,
+        最小间距
+    );
+
+    设置等级样式.left = 左 + 'px';
+    设置等级样式.top = 上 + 'px';
 });
 添加事件监控(文档,'click',全关闭);
 const 计分 = _=>{
