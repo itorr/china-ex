@@ -160,8 +160,8 @@
 	
 		<rect x="983" y="455" style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" width="120" height="250"/>
 	<text transform="matrix(1 0 0 1 998.5709 489.6172)" style="font-family:'Tensentype-JiaLiDaYuanJ'; font-size:30px;">5 居住</text>
-	<text transform="matrix(1 0 0 1 998.6002 540.0001)" style="font-family:'Tensentype-JiaLiDaYuanJ'; font-size:30px;">4 住宿</text>
-	<text transform="matrix(1 0 0 1 998.6002 590.0001)" style="font-family:'Tensentype-JiaLiDaYuanJ'; font-size:30px;">3 游玩</text>
+	<text transform="matrix(1 0 0 1 998.6002 540.0001)" style="font-family:'Tensentype-JiaLiDaYuanJ'; font-size:30px;">4 游玩</text>
+	<text transform="matrix(1 0 0 1 998.6002 590.0001)" style="font-family:'Tensentype-JiaLiDaYuanJ'; font-size:30px;">3 出差</text>
 	<text transform="matrix(1 0 0 1 998.6002 640.0001)" style="font-family:'Tensentype-JiaLiDaYuanJ'; font-size:30px;">2 换乘</text>
 	<text transform="matrix(1 0 0 1 998.6002 690.0001)" style="font-family:'Tensentype-JiaLiDaYuanJ'; font-size:30px;">1 路过</text>
 </g>
