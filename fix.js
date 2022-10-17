@@ -89,6 +89,7 @@ getFontFromText(`JiaLiDaYuanJF`,`1234567890中国制霸
 神奇海螺试验场
 分数: 53
 居住５
+住宿
 游玩４
 出差３
 换乘２
