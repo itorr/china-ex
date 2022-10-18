@@ -1,7 +1,8 @@
 const 本地存储 = localStorage;
 const 视窗 = window;
 const 文档 = document;
-const 如何做爱元素 = document.documentElement;
+const 如何做爱元素 = 文档.documentElement;
+const 体元素 = 文档.body;
 const 头元素 = 文档.head;
 const 新建元素 = 名 => 文档.createElement(名);
 const 新建图 = _=> new Image();
@@ -46,20 +47,20 @@ const 最小间距 = 6;
     设置等级样式.display = 'block';
     const 设置等级元素方位 = 获取元素方位(设置等级);
     
-    let 左 = Math.round(省元素方位.left + 省元素方位.width/2 - 设置等级元素方位.width/2);
+    let 左 = Math.round(如何做爱元素.scrollLeft + 省元素方位.left + 省元素方位.width/2 - 设置等级元素方位.width/2);
     左 = Math.min(
         左,
-        document.body.offsetWidth - 设置等级元素方位.width - 最小间距
+        体元素.offsetWidth - 设置等级元素方位.width - 最小间距
     );
     左 = Math.max(
         左,
         最小间距
     );
 
-    let 上 = Math.round(省元素方位.top + 省元素方位.height/2 - 设置等级元素方位.height/2);
+    let 上 = Math.round(如何做爱元素.scrollTop + 省元素方位.top + 省元素方位.height/2 - 设置等级元素方位.height/2);
     上 = Math.min(
         上,
-        document.body.offsetHeight - 设置等级元素方位.height - 最小间距
+        体元素.offsetHeight - 设置等级元素方位.height - 最小间距
     );
     上 = Math.max(
         上,
