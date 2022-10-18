@@ -1,0 +1,31 @@
+{
+  "name": "china-ex",
+  "version": "0.0.1",
+  "description": "中国制霸生成器",
+  "main": "fix.js",
+  "scripts": {
+    "generate-font": "node generate-font-slice.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itorr/china-ex.git"
+  },
+  "keywords": [
+    "china"
+  ],
+  "author": "itorr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itorr/china-ex/issues"
+  },
+  "files": [
+    "html/index.html",
+    "html/document.css",
+    "html/document.js",
+    "html/slice.woff"
+  ],
+  "homepage": "https://github.com/itorr/china-ex#readme",
+  "dependencies": {
+    "axios": "^1.1.3"
+  }
+}

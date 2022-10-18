@@ -30,7 +30,9 @@ a{
     cursor: pointer;
     text-decoration: none;
 }
-
+::selection{
+    background-color: #FF7E7E;
+}
 #设置等级{
     display: none;
     position: absolute;
@@ -80,9 +82,8 @@ footer{
     a{
         float: left;
         padding: 8px 12px;
-        margin-left: 4px;
         &.按钮{
-            margin-left: 10px;
+            margin-left: 12px;
         }
     }
 }
