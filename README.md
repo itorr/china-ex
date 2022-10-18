@@ -33,5 +33,17 @@ https://lab.magiconch.com/china-ex/
 ## 衍生
  - 吃货制霸 @lvwzhen https://github.com/lvwzhen/foodie-ex
 
+## 微博
+https://weibo.com/1197780522/MaCGDCt6N
+
+## GitHub
+https://github.com/itorr/china-ex
+
+## 反馈
+https://github.com/itorr/china-ex/issues
+
 ## 使用了
 腾祥嘉丽大圆
+
+## 协议
+允许非商用非盈利的利用
