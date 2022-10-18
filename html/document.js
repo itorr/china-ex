@@ -32,7 +32,7 @@ const 获取等级们并生效 = _=>{
         元素.setAttribute('level',等级们[下标])
     })
 };
-const 图形 = 文档.querySelector('svg');
+const 图形 = 体元素.children[0];
 const 设置等级样式 = 设置等级.style;
 const 最小间距 = 6;
 添加事件监控(地区,'click', e=>{
@@ -144,6 +144,7 @@ const 地址变图像元素 = (地址,回调)=>{
 };
 const 日志 = _=>(新建图()).src = `https://lab.magiconch.com/api/china-ex/log?levels=${获取所有省等级们().join('')}`;
 
+const 输出图像样式 = 输出图像.style;
 const 保存图像 = _=>{
     如何做爱元素.setAttribute('data-running','true');
 
@@ -168,7 +169,7 @@ const 保存图像 = _=>{
         画板.toBlob(元素数据=>{
             const 地址 = URL.createObjectURL(元素数据);
             输出图像.querySelector('img').src = 地址;
-            输出图像.style.display = '';
+            输出图像样式.display = '';
 
             设置延时(_=>{
                 下载文件(地址,`[神奇海螺][中国制霸]${+new Date()}.png`);
@@ -184,5 +185,5 @@ const 保存图像 = _=>{
 添加事件监控(保存,'click',保存图像);
 
 添加事件监控(输出图像.querySelector('a'),'click',_=>{
-    输出图像.style.display = 'none'
+    输出图像样式.display = 'none'
 });
