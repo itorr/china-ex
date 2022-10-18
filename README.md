@@ -7,7 +7,6 @@ https://lab.magiconch.com/china-ex/
 ## 功能
 可以在线标记 居住、短居、游玩、出差、路过 标记后可生成图片进行社区分享
 
-
 标记过的信息会记录到本地存储，有什么新进展再次打开网页更新即可
 
 ## 说明
@@ -30,6 +29,9 @@ https://lab.magiconch.com/china-ex/
 
 ## 参考 
 参考自 https://zhung.com.tw/japanex/
+
+## 衍生
+ - 吃货制霸 @lvwzhen https://github.com/lvwzhen/foodie-ex
 
 ## 使用了
 腾祥嘉丽大圆
