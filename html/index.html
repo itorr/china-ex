@@ -22,7 +22,7 @@ text{
 .fs24{font-size:24px;}
 #地区 path,
 polyline,
-.level-border{
+.边框{
     fill-rule:evenodd;
     clip-rule:evenodd;
     stroke:#000;
@@ -35,15 +35,14 @@ polyline,
     cursor: pointer;
     pointer-events: auto;
 }
-polyline{fill:none;pointer-events:none;}
-#地区 > *[level="5"]{fill:#FF7E7E;}
-#地区 > *[level="4"]{fill:#FFB57E;}
-#地区 > *[level="3"]{fill:#FFE57E;}
-#地区 > *[level="2"]{fill:#A8FFBE;}
-#地区 > *[level="1"]{fill:#88AEFF;}
-.level-border{
-    fill:none;
-}
+polyline,
+.边框{fill:none;}
+#地区 path[level="5"]{fill:#FF7E7E;}
+#地区 path[level="4"]{fill:#FFB57E;}
+#地区 path[level="3"]{fill:#FFE57E;}
+#地区 path[level="2"]{fill:#A8FFBE;}
+#地区 path[level="1"]{fill:#88AEFF;}
+
 </style>
 <text x="425" y="119" id="标题">中国制霸</text>
 <g id="地区">
@@ -140,8 +139,8 @@ polyline{fill:none;pointer-events:none;}
 	<path fill="#FFE57E" d="M983 550h120v50H983Z"/>
 	<path fill="#A8FFBE" d="M983 600h120v50H983Z"/>
 	<path fill="#88AEFF" d="M983 650h120v50H983Z"/>
-	<path fill="#FFFFFF" d="M983 700h120v50H983Z"/>
-	<path class="level-border" d="M983 450h120v300H983Z"/>
+	<path fill="#FFF" d="M983 700h120v50H983Z"/>
+	<path class="边框" d="M983 450h120v300H983Z"/>
 	<text x="1000" y="484">居住５</text>
 	<text x="1000" y="535">短居４</text>
 	<text x="1000" y="585">游玩３</text>

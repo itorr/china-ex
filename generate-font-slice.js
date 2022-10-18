@@ -57,7 +57,7 @@ const getTextFromHTMLFile = (filename)=>{
     html = html.replace(/<text .+?>(.+?)<\/text>/g,addTextFromMatch);
     html = html.replace(/<a .+?>(.+?)<\/a>/g,addTextFromMatch);
     html = html.replace(/<h2 .+?>(.+?)<\/h2>/g,addTextFromMatch);
-    html = html.replace(/<p .+?>(.+?)<\/p>/g,addTextFromMatch);
+    html = html.replace(/<p>([\s\S]+?)<\/p>/g,addTextFromMatch);
 
     return texts.join('');
 };
