@@ -62,7 +62,7 @@ const getTextFromHTMLFile = (filename)=>{
     return texts.join('');
 };
 
-const defaultText = `1234567890`;
+const defaultText = `1234567890:`;
 const text = defaultText + getTextFromHTMLFile('html/index.html');
 const fontURL = generateFontURL(`JiaLiDaYuanJF`,text);
 
