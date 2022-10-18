@@ -17,10 +17,10 @@ text{
 	fill:#111;
 	font-size:30px;
 }
-#title{font-size:60px;}
+#标题,
 #分数{font-size:60px;}
+.fs24{font-size:24px;}
 #地区 path,
-#地区 rect,
 polyline,
 .level-border{
     fill-rule:evenodd;
@@ -30,8 +30,7 @@ polyline,
     stroke-linecap:round;
     stroke-linejoin:round;
 }
-#地区 path,
-#地区 rect{
+#地区 path{
     fill:#FFF;
     cursor: pointer;
     pointer-events: auto;
@@ -46,15 +45,16 @@ polyline{fill:none;pointer-events:none;}
     fill:none;
 }
 </style>
-<text x="425" y="119" id="title">中国制霸</text>
+<text x="425" y="119" id="标题">中国制霸</text>
 <g id="地区">
+
 	<path id="黑龙江" d="M1100,33v158H894V33H1100z"/>
 	<path id="甘肃" d="M585,191v371H351V191H585z"/>
 	<path id="吉林" d="M894,191v85h206v-85H894z"/>
 	<path id="内蒙古" d="M894,33H738v158H499v227h227l168-108V33z"/>
 	<path id="山东" d="M779,446v92h139v-92H779z"/>
 	<path id="河北" d="M861,310H726v180h117v-95h18V310z"/>
-	<rect id="北京" x="763" y="336" width="80" height="52"/>
+	<path id="北京" d="M763 336h80v52H763Z"/>
 	<path id="天津" d="M763,388h80v43h-80V388z"/>
 	<path id="西藏" d="M389,770H35V466h354V770z"/>
 	<path id="新疆" d="M35,466V87h316v379H35z"/>
@@ -69,19 +69,19 @@ polyline{fill:none;pointer-events:none;}
 	<path id="江西" d="M852,806V676H749v130H852z"/>
 	<path id="浙江" d="M852,625l74,1v107h-74V625z"/>
 	<path id="福建" d="M823,733v107h73V733H823z"/>
-	<rect id="上海" x="882" y="602" width="72" height="47"/>
+	<path id="上海" d="M882 602h72v47H882Z"/>
 	<path id="陕西" d="M585,653h69V418h-69V653z"/>
 	<path id="湖南" d="M654,688h95v100h-95V688z"/>
 	<path id="广西" d="M679,788H537v81h142V788z"/>
-	<rect id="香港" x="758" y="856" width="42" height="33"/>
-	<rect id="澳门" x="701" y="856" width="45" height="33"/>
+	<path id="香港" d="M758 856h42v33H758Z"/>
+	<path id="澳门" d="M701 856h45v33H701Z"/>
 	<path id="贵州" d="M654,709H537v79h117V709z"/>
-	<rect id="重庆" x="565" y="653" width="89" height="56"/>
+	<path id="重庆" d="M565 653h89v56H565Z"/>
 	<path id="四川" d="M565,737v-84h20v-91H389v175H565z"/>
 	<path id="云南" d="M537,737H389v115h148V737z"/>
 	<path id="宁夏" d="M585,418h-86v96h86V418z"/>
-	<rect id="台湾" x="918" y="788" width="45" height="87"/>
-	<rect id="海南" x="615" y="897" width="78" height="46"/>
+	<path id="台湾" d="M918 788h45v87H918Z"/>
+	<path id="海南" d="M615 897h78v46H615Z"/>
 </g>
 <polyline id="曾母暗沙" points="827,941 827,897 908,897 908,941"/>
 <g id="地名">
@@ -129,19 +129,19 @@ polyline{fill:none;pointer-events:none;}
 	<text x="577" y="691">重庆</text>
 	<text x="104" y="639">西藏</text>
 	<text x="163" y="288">新疆</text>
-	<text x="767" y="880" style="font-size:24px">港</text>
-	<text x="711" y="880" style="font-size:24px">澳</text>
+	<text x="767" y="880" class="fs24">港</text>
+	<text x="711" y="880" class="fs24">澳</text>
 </g>
-<text id="神奇海螺" x="37" y="937">神奇海螺试验场</text>
+<text x="37" y="937">神奇海螺试验场</text>
 <text id="分数" x="35" y="883">分数</text>
 <g id="等级">
-	<rect x="983" y="450" width="120" height="50" fill="#FF7E7E"/>
-	<rect x="983" y="500" width="120" height="50" fill="#FFB57E"/>
-	<rect x="983" y="550" width="120" height="50" fill="#FFE57E"/>
-	<rect x="983" y="600" width="120" height="50" fill="#A8FFBE"/>
-	<rect x="983" y="650" width="120" height="50" fill="#88AEFF"/>
-	<rect x="983" y="700" width="120" height="50" fill="#FFFFFF"/>
-	<rect x="983" y="450" class="level-border" width="120" height="300"/>
+	<path fill="#FF7E7E" d="M983 450h120v50H983Z"/>
+	<path fill="#FFB57E" d="M983 500h120v50H983Z"/>
+	<path fill="#FFE57E" d="M983 550h120v50H983Z"/>
+	<path fill="#A8FFBE" d="M983 600h120v50H983Z"/>
+	<path fill="#88AEFF" d="M983 650h120v50H983Z"/>
+	<path fill="#FFFFFF" d="M983 700h120v50H983Z"/>
+	<path class="level-border" d="M983 450h120v300H983Z"/>
 	<text x="1000" y="484">居住５</text>
 	<text x="1000" y="535">短居４</text>
 	<text x="1000" y="585">游玩３</text>
