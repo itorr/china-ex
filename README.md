@@ -35,6 +35,7 @@ https://lab.magiconch.com/china-ex/
 ## 衍生
  - 吃货制霸 @lvwzhen https://github.com/lvwzhen/foodie-ex
  - 美国版 @tenpages https://github.com/tenpages/us-level
+ - 自定义等级分享版 @kf-liu https://github.com/kf-liu/china-ex-pro
 ## 微博
 https://weibo.com/1197780522/MaCGDCt6N
 
