@@ -10,6 +10,7 @@ const 添加事件监控 = (元素,事件,回调) => 元素[`on${事件}`] = 回
 const 获取元素方位 = 元素 => 元素.getBoundingClientRect();
 const 设置延时 = setTimeout;
 const 数学 = Math;
+const 点击 = 'click';
 
 const 设置等级标题 = 设置等级.children[0];
 
@@ -18,7 +19,7 @@ const 全关闭 = _=>{
 };
 const 数据 = {};
 const 获取所有省元素们 = _=>[...地区.children];
-const 获取所有省等级们 = _=>获取所有省元素们().map(el=>+el.getAttribute('level')||0);
+const 获取所有省等级们 = _=>获取所有省元素们().map(元素=>+元素.getAttribute('level')||0);
 const 本地存储等级们钥匙 = 'china-ex-levels';
 const 保存等级们 = _=>{
     本地存储.setItem(本地存储等级们钥匙,获取所有省等级们().join(''));
@@ -35,10 +36,10 @@ const 获取等级们并生效 = _=>{
 const 图形 = 体元素.children[0];
 const 设置等级样式 = 设置等级.style;
 const 最小间距 = 6;
-添加事件监控(地区,'click', e=>{
-    e.stopPropagation();
+添加事件监控(地区, 点击, 事件=>{
+    事件.stopPropagation();
 
-    const { target: 省元素 } = e;
+    const { target: 省元素 } = 事件;
     const 省元素方位 = 获取元素方位(省元素);
     const { id } = 省元素;
     数据.省元素 = 省元素;
@@ -47,7 +48,7 @@ const 最小间距 = 6;
     设置等级标题.innerHTML = id;
     设置等级样式.display = 'block';
     const 设置等级元素方位 = 获取元素方位(设置等级);
-    
+
     let 左 = 数学.round(如何做爱元素.scrollLeft + 省元素方位.left + 省元素方位.width/2 - 设置等级元素方位.width/2);
     左 = 数学.min(
         左,
@@ -71,16 +72,16 @@ const 最小间距 = 6;
     设置等级样式.left = 左 + 'px';
     设置等级样式.top = 上 + 'px';
 });
-添加事件监控(文档,'click',全关闭);
+添加事件监控(文档,点击,全关闭);
 const 计分 = _=>{
     const 分 = 获取所有省等级们().reduce((全, 当前) => {
         return +全 + 当前;
       }, 0);
     分数.innerHTML = `分数: ${分}`;
 }
-添加事件监控(设置等级,'click',e=>{
-    e.stopPropagation();
-    const 等级 = e.target.getAttribute('data-level');
+添加事件监控(设置等级,点击,事件=>{
+    事件.stopPropagation();
+    const 等级 = 事件.target.getAttribute('data-level');
     if(!等级) return false;
     数据.省元素.setAttribute('level',等级);
     计分();
@@ -93,11 +94,11 @@ const 计分 = _=>{
 
 const 读文件成地址 = (原始数据,回调)=>{
     const 读 = new FileReader();
-    读.onload = e => 回调(e.target.result);
+    读.onload = 事件 => 回调(事件.target.result);
     读.readAsDataURL(原始数据);
 };
 const 获取字体数据地址 = (地址,回调)=>{
-    fetch(地址).then(r => r.blob()).then(原始数据 => 读文件成地址(原始数据,回调));
+    fetch(地址).then(资源 => 资源.blob()).then(原始数据 => 读文件成地址(原始数据,回调));
 };
 const 获取字体样式 = (字体名,回调)=>{
     获取字体数据地址(`${字体名}.woff?v=a`,地址 => 回调(`@font-face {
@@ -175,15 +176,13 @@ const 保存图像 = _=>{
                 下载文件(地址,`[神奇海螺][中国制霸]${+new Date()}.png`);
                 如何做爱元素.removeAttribute('data-running');
             },50)
-            
-
         },'image/png');
     });
     日志();
 };
 
-添加事件监控(保存,'click',保存图像);
+添加事件监控(保存, 点击,保存图像);
 
-添加事件监控(输出图像.querySelector('a'),'click',_=>{
+添加事件监控(输出图像.querySelector('a'), 点击,_=>{
     输出图像样式.display = 'none'
 });
