@@ -1,7 +1,7 @@
 const 本地存储 = localStorage;
 const 视窗 = window;
 const 文档 = document;
-const 如何做爱元素 = 文档.documentElement;
+const 根元素 = 文档.documentElement;
 const 体元素 = 文档.body;
 const 头元素 = 文档.head;
 const 新建元素 = 名 => 文档.createElement(名);
@@ -49,7 +49,7 @@ const 最小间距 = 6;
     设置等级样式.display = 'block';
     const 设置等级元素方位 = 获取元素方位(设置等级);
 
-    let 左 = 数学.round(如何做爱元素.scrollLeft + 省元素方位.left + 省元素方位.width/2 - 设置等级元素方位.width/2);
+    let 左 = 数学.round(根元素.scrollLeft + 省元素方位.left + 省元素方位.width/2 - 设置等级元素方位.width/2);
     左 = 数学.min(
         左,
         体元素.offsetWidth - 设置等级元素方位.width - 最小间距
@@ -59,7 +59,7 @@ const 最小间距 = 6;
         最小间距
     );
 
-    let 上 = 数学.round(如何做爱元素.scrollTop + 省元素方位.top + 省元素方位.height/2 - 设置等级元素方位.height/2);
+    let 上 = 数学.round(根元素.scrollTop + 省元素方位.top + 省元素方位.height/2 - 设置等级元素方位.height/2);
     上 = 数学.min(
         上,
         体元素.offsetHeight - 设置等级元素方位.height - 最小间距
@@ -111,7 +111,7 @@ const 获取字体样式 = (字体名,回调)=>{
     const 样式元素 = 新建元素('style');
     样式元素.innerHTML = 样式字串;
     头元素.appendChild(样式元素);
-    设置延时(_=>如何做爱元素.removeAttribute('data-loading'),2e3);
+    设置延时(_=>根元素.removeAttribute('data-loading'),2e3);
 });
 
 const 宽 = 1134;
@@ -147,7 +147,7 @@ const 日志 = _=>(新建图()).src = `https://lab.magiconch.com/api/china-ex/lo
 
 const 输出图像样式 = 输出图像.style;
 const 保存图像 = _=>{
-    如何做爱元素.setAttribute('data-running','true');
+    根元素.setAttribute('data-running','true');
 
     const 文档文本 = `<?xml version="1.0" encoding="utf-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${宽} ${高}" width="${宽}px" height="${高}px">${图形.innerHTML}</svg>`;
     const 数据地址 = 从文档文本新建图形文件(文档文本);
@@ -174,7 +174,7 @@ const 保存图像 = _=>{
 
             设置延时(_=>{
                 下载文件(地址,`[神奇海螺][中国制霸]${+new Date()}.png`);
-                如何做爱元素.removeAttribute('data-running');
+                根元素.removeAttribute('data-running');
             },50)
         },'image/png');
     });
