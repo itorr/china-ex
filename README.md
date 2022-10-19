@@ -38,6 +38,7 @@ https://lab.magiconch.com/china-ex/
  - 吃货制霸 @lvwzhen https://github.com/lvwzhen/foodie-ex
  - 美国版 @tenpages https://github.com/tenpages/us-level
  - 全球版 @itorr https://github.com/itorr/world-ex
+ - 普通/简化切换版 @qianphong https://github.com/qianphong/china-ex-ns
 ## 微博
 https://weibo.com/1197780522/MaCGDCt6N
 
