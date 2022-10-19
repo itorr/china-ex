@@ -59,11 +59,42 @@ a{
     a{
         display: block;
         padding: 4px 10px;
-        &[data-level="5"]{background:#FF7E7E;}
-        &[data-level="4"]{background:#FFB57E;}
-        &[data-level="3"]{background:#FFE57E;}
-        &[data-level="2"]{background:#A8FFBE;}
-        &[data-level="1"]{background:#88AEFF;}
+        &[data-level="5"]{
+            background:#FF7E7E;
+            &:hover{
+                background: #e67171;
+            }
+        }
+        &[data-level="4"]{
+            background:#FFB57E;
+            &:hover{
+                background: #e6a371;
+            }
+        }
+        &[data-level="3"]{
+            background:#FFE57E;
+            &:hover{
+                background: #e6ce71;
+            }
+        }
+        &[data-level="2"]{
+            background:#A8FFBE;
+            &:hover{
+                background: #97e6ab;
+            }
+        }
+        &[data-level="1"]{
+            background:#88AEFF;
+            &:hover{
+                background: #7a9de6;
+            }
+        }
+        &[data-level="0"]{
+            &:hover{
+                background: #e6e6e6;
+            }
+        }
+        transition: all 0.2s;
     }
 }
 .按钮{
