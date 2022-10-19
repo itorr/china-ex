@@ -41,6 +41,7 @@ https://lab.magiconch.com/china-ex/
  - 普通/简化切换版 @qianphong https://github.com/qianphong/china-ex-ns
  - 中国马拉松制版 @Likenttt https://github.com/Likenttt/china-city-marathon-ex
  - 福建版 @action-hong https://github.com/action-hong/china-ex
+ - 自定义等级分享版 @kf-liu https://github.com/kf-liu/china-ex-pro
 
 ## 微博
 https://weibo.com/1197780522/MaCGDCt6N
