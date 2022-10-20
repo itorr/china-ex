@@ -4,7 +4,7 @@
   "description": "中国制霸生成器",
   "main": "html/index.html",
   "scripts": {
-    "generate-font": "node generate-font-slice.js "
+    "generate-font": "node 生成字体子集.js "
   },
   "repository": {
     "type": "git",
