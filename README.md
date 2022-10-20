@@ -38,6 +38,11 @@ https://lab.magiconch.com/china-ex/
  - 吃货制霸 @lvwzhen https://github.com/lvwzhen/foodie-ex
  - 美国版 @tenpages https://github.com/tenpages/us-level
  - 全球版 @itorr https://github.com/itorr/world-ex
+ - 普通/简化切换版 @qianphong https://github.com/qianphong/china-ex-ns
+ - 中国马拉松制版 @Likenttt https://github.com/Likenttt/china-city-marathon-ex
+ - 福建版 @action-hong https://github.com/action-hong/china-ex
+ - 自定义等级分享版 @kf-liu https://github.com/kf-liu/china-ex-pro
+
 ## 微博
 https://weibo.com/1197780522/MaCGDCt6N
 
