@@ -1,113 +1,139 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1548 1210">
-<style type="text/css">
-svg{
-	fill: #D9A9A9;
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1134 976">
+<style></style>
+<style>
+text{
+	font-family: 'Tensentype-JiaLiDaYuanJF',sans-serif;
+	fill:#111;
+	font-size:30px;
 }
-#地区 *{
-    fill:#FFF;
+#标题,
+#分数{font-size:60px;}
+.fs24{font-size:24px;}
+#地区 path,
+#曾母暗沙,
+.边框{
     fill-rule:evenodd;
     clip-rule:evenodd;
-    stroke:#000000;
+    stroke:#000;
     stroke-width:4;
     stroke-linecap:round;
     stroke-linejoin:round;
 }
-#地区 .st1{fill:#FFFFFF;}
-#地区 .st2{fill:#FFB57E;}
-#地区 .st3{fill:#FF7E7E;}
-#地区 .st4{fill:#FFE57E;}
-#地区 .st5{fill:#88AEFF;}
-#地区 .st6{fill:#A8FFBE;}
-#地名 *{
-    fill:#111111;
-    font-family:'Tensentype-JiaLiDaYuanJF';
-    font-size:30px;
+#地区 path{
+    fill:#FFF;
+    cursor: pointer;
+    pointer-events: auto;
 }
+#曾母暗沙,
+.边框{fill:none;}
+#地区 path[level="5"]{fill:#FF7E7E;}
+#地区 path[level="4"]{fill:#FFB57E;}
+#地区 path[level="3"]{fill:#FFE57E;}
+#地区 path[level="2"]{fill:#A8FFBE;}
+#地区 path[level="1"]{fill:#88AEFF;}
 </style>
-<g xmlns="http://www.w3.org/2000/svg" id="地区">
-	<path id="黑龙江" d="M 1308,150 1308,308 1102,308 1102,150z"/>
-	<path id="甘肃" d="M 793,308 793,679 559,679 559,308z"/>
-	<path id="吉林" d="M 1102,308 1102,393 1308,393 1308,308z"/>
-	<path id="内蒙古" d="M 1102,150 946,150 946,308 707,308 707,535 934,535 1102,427z"/>
-	<path id="山东" d="M 987,563 987,655 1126,655 1126,563z"/>
-	<path id="河北" d="M1069,427H934v180h117c0-39.3,0-71,0-95h18V427z"/>
-	<rect id="北京" x="971" y="453" width="80" height="52"/>
-	<path id="天津" d="M 971,505 1051,505 1051,548 971,548z"/>
-	<path id="西藏" d="M 597,887 243,887 243,583 597,583z"/>
-	<path id="新疆" d="M 243,583 243,204 559,204 559,583z"/>
-	<path id="河南" d="M 987,607 862,607 862,724 987,724z"/>
-	<path id="安徽" d="M 1060,655 987,655 987,793 1060,793z"/>
-	<path id="山西" d="M 862,535 862,643 934,643 934,535z"/>
-	<path id="湖北" d="M 987,805 987,724 862,724 862,805z"/>
-	<path id="青海" d="M 650,743 650,512 436,512 436,743z"/>
-	<path id="辽宁" d="M 1069,393 1069,512 1223,512 1223,393z"/>
-	<path id="广东" d="M 1031,905 887,905 887,986 1031,986z"/>
-	<path id="江苏" d="M 1107,655 1107,742 1045,742 1045,655z"/>
-	<path id="江西" d="M 1060,923 1060,793 957,793 957,923z"/>
-	<path id="浙江" d="M 1060,742 1134,743 1134,850 1060,850z"/>
-	<path id="福建" d="M 1031,850 1031,957 1104,957 1104,850z"/>
-	<rect id="上海" x="1090" y="719" width="72" height="47"/>
-	<path id="陕西" d="M 793,770 862,770 862,535 793,535z"/>
-	<path id="湖南" d="M 862,805 957,805 957,905 862,905z"/>
-	<path id="广西" d="M 887,905 745,905 745,986 887,986z"/>
-	<rect id="香港" x="966" y="973" width="42" height="33"/>
-	<rect id="澳门" x="909" y="973" width="45" height="33"/>
-	<path id="贵州" d="M 862,826 745,826 745,905 862,905z"/>
-	<rect id="重庆" x="773" y="770" width="89" height="56"/>
-	<path id="四川" d="M 773,854 773,770 793,770 793,679 597,679 597,854z"/>
-	<path id="云南" d="M 745,854 597,854 597,969 745,969z"/>
-	<path id="宁夏" d="M 793,535 707,535 707,631 793,631z"/>
-	<rect id="台湾" x="1126" y="905" width="45" height="87"/>
-	<rect id="海南" x="823" y="1014" width="78" height="46"/>
+<text x="425" y="119" id="标题">中国制霸</text>
+<g id="地区">
+	<path id="黑龙江" d="M1100,33v158H894V33H1100z"/>
+	<path id="甘肃" d="M585,191v371H351V191H585z"/>
+	<path id="吉林" d="M894,191v85h206v-85H894z"/>
+	<path id="内蒙古" d="M894,33H738v158H499v227h227l168-108V33z"/>
+	<path id="山东" d="M779,446v92h139v-92H779z"/>
+	<path id="河北" d="M861,310H726v180h117v-95h18V310z"/>
+	<path id="北京" d="M763 336h80v52H763Z"/>
+	<path id="天津" d="M763,388h80v43h-80V388z"/>
+	<path id="西藏" d="M389,770H35V466h354V770z"/>
+	<path id="新疆" d="M35,466V87h316v379H35z"/>
+	<path id="河南" d="M779,490H654v117h125V490z"/>
+	<path id="安徽" d="M852,538h-73v138h73V538z"/>
+	<path id="山西" d="M654,418v108h72V418H654z"/>
+	<path id="湖北" d="M779,688v-81H654v81H779z"/>
+	<path id="青海" d="M442,626V395H228v231H442z"/>
+	<path id="辽宁" d="M861,276v119h154V276H861z"/>
+	<path id="广东" d="M823,788H679v81h144V788z"/>
+	<path id="江苏" d="M899,538v87h-62v-87H899z"/>
+	<path id="江西" d="M852,806V676H749v130H852z"/>
+	<path id="浙江" d="M852,625l74,1v107h-74V625z"/>
+	<path id="福建" d="M823,733v107h73V733H823z"/>
+	<path id="上海" d="M882 602h72v47H882Z"/>
+	<path id="陕西" d="M585,653h69V418h-69V653z"/>
+	<path id="湖南" d="M654,688h95v100h-95V688z"/>
+	<path id="广西" d="M679,788H537v81h142V788z"/>
+	<path id="香港" d="M758 856h42v33H758Z"/>
+	<path id="澳门" d="M701 856h45v33H701Z"/>
+	<path id="贵州" d="M654,709H537v79h117V709z"/>
+	<path id="重庆" d="M565 653h89v56H565Z"/>
+	<path id="四川" d="M565,737v-84h20v-91H389v175H565z"/>
+	<path id="云南" d="M537,737H389v115h148V737z"/>
+	<path id="宁夏" d="M585,418h-86v96h86V418z"/>
+	<path id="台湾" d="M918 788h45v87H918Z"/>
+	<path id="海南" d="M615 897h78v46H615Z"/>
 </g>
+<path id="曾母暗沙" d="M827 941L827 897L908 897L908 941"/>
 <g id="地名">
-	<text x="867" y="383">内蒙古</text>
-	<text x="1159" y="240">黑龙江</text>
-	<text x="1174" y="359">吉林</text>
-	<text x="1114" y="464">辽宁</text>
-	<text x="979" y="488">北京</text>
-	<text x="979" y="536">天津</text>
-	<text x="959" y="586">河北</text>
-	<text x="1069" y="605">山</text>
-	<text x="1069" y="635">东</text>
-	<text x="893" y="696">河南</text>
-	<text x="892" y="775">湖北</text>
-	<text x="892" y="852">湖</text>
-	<text x="892" y="882">南</text>
-	<text x="1054" y="692">江</text>
-	<text x="1054" y="722">苏</text>
-	<text x="1093" y="752">上海</text>
-	<text x="1080" y="802">浙</text>
-	<text x="1080" y="832">江</text>
-	<text x="1049" y="901">福</text>
-	<text x="1049" y="931">建</text>
-	<text x="1131" y="943">台</text>
-	<text x="1131" y="973">湾</text>
-	<text x="830" y="1047">海南</text>
-	<text x="927" y="959">广东</text>
-	<text x="980" y="853">江</text>
-	<text x="980" y="883">西</text>
-	<text x="1001" y="720">安</text>
-	<text x="1001" y="750">徽</text>
-	<text x="881" y="583">山</text>
-	<text x="881" y="613">西</text>
-	<text x="810" y="653">陕</text>
-	<text x="810" y="683">西</text>
-	<text x="733" y="577">宁</text>
-	<text x="733" y="607">夏</text>
-	<text x="617" y="421">甘</text>
-	<text x="617" y="451">肃</text>
-	<text x="509" y="637">青海</text>
-	<text x="661" y="777">四川</text>
-	<text x="640" y="922">云南</text>
-	<text x="783" y="956">广西</text>
-	<text x="774" y="876">贵州</text>
-	<text x="785" y="808">重庆</text>
-	<text x="312" y="756">西藏</text>
-	<text x="371" y="405">新疆</text>
+	<text x="659" y="266">内蒙古</text>
+	<text x="951" y="123">黑龙江</text>
+	<text x="966" y="242">吉林</text>
+	<text x="906" y="347">辽宁</text>
+	<text x="773" y="371">北京</text>
+	<text x="773" y="419">天津</text>
+	<text x="751" y="469">河北</text>
+	<text x="861" y="488">山</text>
+	<text x="861" y="518">东</text>
+	<text x="685" y="579">河南</text>
+	<text x="684" y="658">湖北</text>
+	<text x="684" y="733">湖</text>
+	<text x="684" y="763">南</text>
+	<text x="846" y="575">江</text>
+	<text x="846" y="605">苏</text>
+	<text x="888" y="635">上海</text>
+	<text x="872" y="685">浙</text>
+	<text x="872" y="715">江</text>
+	<text x="844" y="783">福</text>
+	<text x="844" y="813">建</text>
+	<text x="925" y="826">台</text>
+	<text x="925" y="856">湾</text>
+	<text x="625" y="930">海南</text>
+	<text x="721" y="842">广东</text>
+	<text x="772" y="736">江</text>
+	<text x="772" y="766">西</text>
+	<text x="793" y="603">安</text>
+	<text x="793" y="633">徽</text>
+	<text x="674" y="466">山</text>
+	<text x="674" y="496">西</text>
+	<text x="604" y="536">陕</text>
+	<text x="604" y="566">西</text>
+	<text x="527" y="460">宁</text>
+	<text x="527" y="490">夏</text>
+	<text x="411" y="304">甘</text>
+	<text x="411" y="334">肃</text>
+	<text x="301" y="520">青海</text>
+	<text x="453" y="660">四川</text>
+	<text x="432" y="805">云南</text>
+	<text x="579" y="839">广西</text>
+	<text x="566" y="759">贵州</text>
+	<text x="579" y="691">重庆</text>
+	<text x="104" y="639">西藏</text>
+	<text x="163" y="288">新疆</text>
+	<text x="767" y="880" class="fs24">港</text>
+	<text x="711" y="880" class="fs24">澳</text>
 </g>
-<script>
-console.log(this)
-</script>
+<text x="37" y="937">神奇海螺试验场</text>
+<text id="分数" x="35" y="883">分数</text>
+<g id="等级">
+	<path fill="#FF7E7E" d="M983 450h120v50H983Z"/>
+	<path fill="#FFB57E" d="M983 500h120v50H983Z"/>
+	<path fill="#FFE57E" d="M983 550h120v50H983Z"/>
+	<path fill="#A8FFBE" d="M983 600h120v50H983Z"/>
+	<path fill="#88AEFF" d="M983 650h120v50H983Z"/>
+	<path fill="#FFF" d="M983 700h120v50H983Z"/>
+	<path class="边框" d="M983 450h120v300H983Z"/>
+	<text x="1000" y="484">居住５</text>
+	<text x="1000" y="535">短居４</text>
+	<text x="1000" y="585">游玩３</text>
+	<text x="1000" y="635">出差２</text>
+	<text x="1000" y="685">路过１</text>
+	<text x="998" y="735">没去过</text>
+</g>
 </svg>

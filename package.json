@@ -4,7 +4,7 @@
   "description": "中国制霸生成器",
   "main": "html/index.html",
   "scripts": {
-    "build": "node 生成字体子集.js "
+    "build": "node 生成字体子集.js;node 转译.js"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,8 @@
   ],
   "homepage": "https://github.com/itorr/china-ex#readme",
   "dependencies": {
-    "axios": "^1.1.3"
+    "axios": "^1.1.3",
+    "html-minifier": "^4.0.0",
+    "uglify-js": "^3.17.3"
   }
 }

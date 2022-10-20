@@ -45,7 +45,7 @@ const 二 = 2;
 const 千 = 1e3;
 const 面 = '2d';
 const 像素 = 'px';
-const 口字 = '';
+const 空字 = '';
 const 啊 = 'a';
 const 靶子 = 'target';
 const 真 = true;
@@ -166,7 +166,7 @@ const 获取字体数据地址 = (地址,回调)=>{
 };
 const 获取字体样式 = (字体名,回调)=>{
     获取字体数据地址(
-        `${字体名}.woff`,
+        `${字体名}.woff?v={version}`,
         地址 => 回调(`@font-face{font-family:${字体名};${源}:url(${地址})}`)
     );
 };
