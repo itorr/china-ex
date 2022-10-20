@@ -75,7 +75,7 @@ const downFontFile = async _=>{
         responseType: 'arraybuffer'
     });
     console.log(r.data);
-    writeFileSync('html/slice.woff',r.data,'binary');
+    writeFileSync('html/字体.woff',r.data,'binary');
 };
 
 downFontFile();

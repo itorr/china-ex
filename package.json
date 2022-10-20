@@ -20,9 +20,9 @@
   },
   "files": [
     "html/index.html",
-    "html/document.css",
-    "html/document.js",
-    "html/slice.woff"
+    "html/样式.css",
+    "html/脚本.js",
+    "html/字体.woff"
   ],
   "homepage": "https://github.com/itorr/china-ex#readme",
   "dependencies": {

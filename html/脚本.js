@@ -55,7 +55,7 @@ const 是社交媒体 = /weibo|qq/i.test(navigator.userAgent);
 
 const $ = (名,元素 = 文档) => 元素.querySelector(名);
 
-const 字体名 = 'slice';
+const 字体名 = '字体';
 const 背景色 = '#efb4b4';
 const 本地存储等级们钥匙 = 'china-ex-levels';
 
@@ -151,7 +151,7 @@ const 获取字体数据地址 = (地址,回调)=>{
     fetch(地址)[那么](资源 => 资源.blob())[那么](原始数据 => 读文件成地址(原始数据,回调));
 };
 const 获取字体样式 = (字体名,回调)=>{
-    获取字体数据地址(`${字体名}.woff?v=a`,地址 => 回调(`@font-face {
+    获取字体数据地址(`${字体名}.woff`,地址 => 回调(`@font-face {
         font-family: ${字体名};
         ${源}: url(${地址});
     };`));
