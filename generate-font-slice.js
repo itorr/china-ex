@@ -11,6 +11,8 @@ const generateFontURL = (name,text)=>{
 
     if(!text) return requestAnimationFrame(onOver);
 
+    console.log(text);
+
     const unicode = str2utf8(text).join();
     const fontURL = `${fontAPI}?name=${name}&unicode=${unicode}&type=woff`;
 
@@ -21,7 +23,6 @@ const getFontFromText = (name,text,onOver=_=>{})=>{
     const fontURL = generateFontURL(name,text);
     loadFont(name,fontURL,_=>{
         onOver(_)
-        // style.innerHTML = `html {font-family: a123;}`;
     })
 };
 
@@ -31,7 +32,6 @@ const loadFont = async (fontName,fontURL,callback) => {
 		document.fonts.add(fontFace);
 		callback(fontFace);
 	}).catch(e=>{
-        // console.log(e);
         callback();
     })
 };
@@ -66,9 +66,6 @@ const defaultText = `1234567890:`;
 const text = defaultText + getTextFromHTMLFile('html/index.html');
 const fontURL = generateFontURL(`JiaLiDaYuanJF`,text);
 
-
-console.log(text);
-console.log(fontURL);
 
 const axios = require('axios');
 
