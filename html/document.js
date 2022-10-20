@@ -1,6 +1,7 @@
 const 本地存储 = localStorage;
 const 视窗 = window;
 const 文档 = document;
+const 读文件 = FileReader;
 const 如何做爱元素 = 文档.documentElement;
 const 体元素 = 文档.body;
 const 头元素 = 文档.head;
@@ -12,16 +13,22 @@ const 设置延时 = setTimeout;
 const 数学 = Math;
 const 统一资源定位 = URL;
 const 点击 = 'click';
+const 加载 = 'load';
 const 等级 = 'level';
 const 样式 = 'style';
+const 唯一标识 = 'id';
 const 源 = 'src';
 const 目标 = 'href';
+const 成果 = 'result';
+const 那么 = 'then';
+const 加末尾 = 'appendChild';
 const 设置属性 = 'setAttribute';
 const 获取属性 = 'getAttribute';
 const 清除属性 = 'removeAttribute';
 const 数据属性头 = 'data-'; 
-const 运行中属性 = 数据属性头 + 'running';
-const 加载中属性 = 数据属性头 + 'loading';
+const 呢 = 'ing';
+const 运行中属性 = 数据属性头 + 'runn' + 呢;
+const 加载中属性 = 数据属性头 + 加载 + 呢;
 const 子元素 = 'children';
 const 停止冒泡 = 'stopPropagation';
 const 新建数据地址 = 'createObjectURL';
@@ -35,6 +42,7 @@ const 上边 = 'top';
 const 零 = 0;
 const 二 = 2;
 const 千 = 1e3;
+const 面 = '2d';
 const 像素 = 'px';
 const 啊 = 'a';
 const 靶子 = 'target';
@@ -47,8 +55,9 @@ const 是社交媒体 = /weibo|qq/i.test(navigator.userAgent);
 
 const $ = (名,元素 = 文档) => 元素.querySelector(名);
 
-const 本地存储等级们钥匙 = 'china-ex-levels';
+const 字体名 = 'slice';
 const 背景色 = '#efb4b4';
+const 本地存储等级们钥匙 = 'china-ex-levels';
 
 const 地区 = $('#地区');
 const 设置等级 = $('#设置等级');
@@ -84,11 +93,9 @@ const 最小间距 = 6;
 
     const 省元素 = 事件[靶子];
     const 省元素方位 = 获取元素方位(省元素);
-    const { id } = 省元素;
     数据.省元素 = 省元素;
-    数据.id = id;
 
-    设置等级标题[肉] = id;
+    设置等级标题[肉] = 省元素[唯一标识];
     设置等级样式[展示] = 块;
     const 设置等级元素方位 = 获取元素方位(设置等级);
 
@@ -136,12 +143,12 @@ const 计分 = _=>{
 计分();
 
 const 读文件成地址 = (原始数据,回调)=>{
-    const 读 = new FileReader();
-    读.onload = 事件 => 回调(事件[靶子].result);
+    const 读 = new 读文件();
+    添加事件监控(读,加载,事件 => 回调(事件[靶子][成果]));
     读.readAsDataURL(原始数据);
 };
 const 获取字体数据地址 = (地址,回调)=>{
-    fetch(地址).then(资源 => 资源.blob()).then(原始数据 => 读文件成地址(原始数据,回调));
+    fetch(地址)[那么](资源 => 资源.blob())[那么](原始数据 => 读文件成地址(原始数据,回调));
 };
 const 获取字体样式 = (字体名,回调)=>{
     获取字体数据地址(`${字体名}.woff?v=a`,地址 => 回调(`@font-face {
@@ -149,11 +156,11 @@ const 获取字体样式 = (字体名,回调)=>{
         ${源}: url(${地址});
     };`));
 };
-获取字体样式('slice',样式字串=>{
+获取字体样式(字体名,样式字串=>{
     $(样式,图形)[肉] = 样式字串;
     const 样式元素 = 新建元素(样式);
     样式元素[肉] = 样式字串;
-    头元素.appendChild(样式元素);
+    头元素[加末尾](样式元素);
     设置延时(_=>如何做爱元素[清除属性](加载中属性),二 * 千);
 });
 
@@ -166,7 +173,7 @@ const 画板 = 新建元素('canvas');
 画板[宽度] = 宽 * 比;
 画板[高度] = 宽 * 比;
 
-const 上下文 = 画板.getContext('2d');
+const 上下文 = 画板.getContext(面);
 
 const 从文档文本新建图形文件 = 文档文本=>{
     const 原始数据 = new Blob([文档文本], {type: 'image/svg+xml'});
@@ -181,7 +188,7 @@ const 下载文件 = (地址,文件名,元素 = 新建元素(啊))=>{
 };
 const 地址变图像元素 = (地址,回调)=>{
     const 图 = 新建图();
-    添加事件监控(图,'load',_=>设置延时(_=>回调(图),千 / 二));
+    添加事件监控(图,加载,_=>设置延时(_=>回调(图),千 / 二));
     图[源] = 地址;
 };
 const 日志 = _=>(新建图())[源] = `https://lab.magiconch.com/api/china-ex/log?levels=${获取所有省等级们字符串()}`;
@@ -189,11 +196,11 @@ const 日志 = _=>(新建图())[源] = `https://lab.magiconch.com/api/china-ex/l
 const 保存图像 = _=>{
     如何做爱元素[设置属性](运行中属性,真);
 
-    const 文档文本 = `<?xml version="1.0" encoding="utf-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${宽} ${高}" ${宽度}="${宽}px" {高度}="${高}px">${图形[肉]}</svg>`;
+    const 文档文本 = `<?xml version="1.0" encoding="utf-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${宽} ${高}" ${宽度}="${宽}px" ${高度}="${高}px">${图形[肉]}</svg>`;
     const 数据地址 = 从文档文本新建图形文件(文档文本);
-    // open(数据地址);
-    // return ;
+    console.log(数据地址)
     地址变图像元素(数据地址,图=>{
+        console.log(/图/,图);
         上下文.fillStyle = 背景色;
         上下文.fillRect(
             零,零,
