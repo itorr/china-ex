@@ -128,7 +128,7 @@ text{
 	<path fill="#A8FFBE" d="M983 600h120v50H983Z"/>
 	<path fill="#88AEFF" d="M983 650h120v50H983Z"/>
 	<path fill="#FFF" d="M983 700h120v50H983Z"/>
-	<path class="边框" d="M983 450h120v300H983Z"/>
+	<path class="边框" d="M983 448h120v304H983Z"/>
 	<text x="1000" y="484">居住５</text>
 	<text x="1000" y="535">短居４</text>
 	<text x="1000" y="585">游玩３</text>
