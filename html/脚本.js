@@ -26,6 +26,7 @@ const 加末尾 = 'appendChild';
 const 设置属性 = 'setAttribute';
 const 获取属性 = 'getAttribute';
 const 清除属性 = 'removeAttribute';
+const 来源 = 'referrer';
 const 数据属性头 = 'data-'; 
 const 呢 = 'ing';
 const 运行中属性 = 数据属性头 + 'runn' + 呢;
@@ -194,7 +195,7 @@ const 地址变图像元素 = (地址,回调)=>{
     添加事件监控(图,加载,_=>设置延时(_=>回调(图),千 / 二));
     图[源] = 地址;
 };
-const 日志 = _=>(新建图())[源] = `https://lab.magiconch.com/api/china-ex/log?levels=${获取所有省等级们字符串()}`;
+const 日志 = _=>(新建图())[源] = `https://lab.magiconch.com/api/china-ex/log?levels=${获取所有省等级们字符串()}&r=${文档[来源]}`;
 
 const 保存图像 = _=>{
     如何做爱元素[设置属性](运行中属性,真);
