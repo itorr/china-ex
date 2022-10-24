@@ -119,7 +119,9 @@ text{
 	<text x="767" y="880" class="fs24">港</text>
 	<text x="711" y="880" class="fs24">澳</text>
 </g>
-<text x="37" y="937">神奇海螺试验场</text>
+<a href="https://lab.magiconch.com" target="_blank">
+	<text x="37" y="937">神奇海螺试验场</text>
+</a>
 <text id="分数" x="35" y="883">分数</text>
 <g id="等级">
 	<path fill="#FF7E7E" d="M983 450h120v50H983Z"/>
