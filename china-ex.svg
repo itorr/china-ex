@@ -32,101 +32,190 @@ text{
 #地区 path[level="3"]{fill:#FFE57E;}
 #地区 path[level="2"]{fill:#A8FFBE;}
 #地区 path[level="1"]{fill:#88AEFF;}
+
+	.st0{fill:#111111;}
+	.st1{font-family:'Tensentype-JiaLiDaYuanJ';}
+	.st2{font-size:48.7001px;}
+	.st3{fill:#FFFFFF;stroke:#231815;stroke-width:4;stroke-miterlimit:10;}
+	.st4{fill:#FF7E7E;}
+	.st5{fill:#FFB57E;}
+	.st6{fill:#FFE57E;}
+	.st7{fill:#A8FFBE;}
+	.st8{fill:#88AEFF;}
+	.st9{fill:#FFFFFF;}
+	.st10{fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;}
+	.st11{font-size:20px;}
+	.st12{font-size:16px;}
+	.st13{font-size:12px;}
+	.st14{font-size:17px;}
+	.st15{font-size:15px;}
+	.st16{font-size:24px;}
+	.st17{font-size:26px;}
+	.st18{font-size:10px;}
+	.st19{font-size:9px;}
+	.st20{font-size:18px;}
+	.st21{font-size:22px;}
+	.st22{font-size:13px;}
+	.st23{font-size:14px;}
+	.st24{font-size:19px;}
 </style>
-<text x="425" y="119" id="标题">中国制霸</text>
+<text id="标题" transform="matrix(1 0 0 1 796.502 102.8541)" class="st0 st1 st2">制霸华科</text>
 <g id="地区">
-	<path id="山东" class="st3" d="M1536.4,823v92h139v-92H1536.4z"/>
-	<polygon id="西十二" class="st4" points="226,807.5 297,777.9 311,844.9 239,872.8 	"/>
-	<polygon id="西操" class="st4" points="208.6,724.9 282.1,695.5 297,777.9 226,807.5 	"/>
-	<polygon id="电气楼" class="st4" points="183,612.9 260,581.9 282.1,695.5 208.6,724.9 	"/>
-	<polygon id="紫菘" class="st4" points="196,669.8 118,667.5 108.6,694.9 61.9,747.5 68.2,780.9 102.8,766.9 107.7,791.5 
-		213.1,748.1 	"/>
-	<polygon id="西区宿舍" class="st4" points="162.4,519.1 243.6,488 304.2,485 304.2,598.9 263.7,601 260,581.9 183,612.9 
-		172.3,564 	"/>
-	<polygon id="西二食堂" class="st4" points="208.2,550.8 172.3,564 183,612.9 221,597.6 	"/>
-	<polygon id="西一食堂" class="st4" points="252.8,533.7 260,581.9 221,597.6 208.2,550.8 	"/>
-	<polygon id="百景园" class="st4" points="304.2,431.9 304.2,485 243.6,488 234.1,431.9 	"/>
-	<polygon id="喻园" class="st4" points="304.2,281.8 672.7,284.8 672.7,431.9 304.2,431.9 	"/>
-	<polygon id="青年园" class="st4" points="362.1,533.7 362.1,685.4 285.7,715.5 263.7,601 304.2,598.9 304.2,533.7 	"/>
-	<rect id="集贸市场" x="393.7" y="376.6" class="st4" width="50.5" height="55.3"/>
-	<rect id="集锦园" x="444.2" y="376.6" class="st4" width="41.3" height="27.7"/>
-	<rect id="喻园食堂" x="444.2" y="404.3" class="st4" width="41.3" height="27.7"/>
-	<rect id="百味小吃城" x="485.5" y="376.6" class="st4" width="48" height="55.3"/>
-	<rect id="校医院" x="413.2" y="331" class="st4" width="107" height="45.6"/>
-	<polygon id="喻家山" class="st4" points="269.2,280.9 672.7,284.8 856.5,284.8 872.1,174.2 269.2,174.2 	"/>
-	<rect id="西边高层" x="234.1" y="281.8" class="st4" width="70.1" height="150.1"/>
-	<polygon id="喻园小区" class="st4" points="835,431.9 672.7,431.9 672.7,284.8 856.5,284.8 	"/>
-	<rect id="接待中心" x="304.2" y="431.9" class="st4" width="89.5" height="101.8"/>
-	<polygon id="幼儿园" class="st4" points="444.2,485.6 393.7,485 393.7,431.9 444.2,432.5 	"/>
-	<polygon id="小学" class="st4" points="485.5,485.6 485.5,431.9 444.2,432.5 444.2,485.6 	"/>
-	<polygon id="管理学院" class="st4" points="564.5,485 564.5,431.9 485.5,431.9 485.5,485.6 	"/>
-	<polygon id="绝望坡" class="st4" points="835,431.9 720.7,431.9 720.7,469 829.1,469 	"/>
-	<polygon id="大活" class="st4" points="393.7,533.7 485.5,533.7 485.5,485.6 393.7,485 	"/>
-	<polygon id="梧桐语" class="st4" points="564.5,533.7 564.5,485 485.5,485.6 485.5,533.7 	"/>
-	<rect id="科技楼" x="362.1" y="533.7" class="st4" width="123.4" height="48.1"/>
-	<polygon id="西体" class="st4" points="304.2,624.6 268.5,625.9 275.9,664.7 304.2,664.7 	"/>
-	<polygon id="图书馆" class="st4" points="485.5,684.8 362.1,685.4 362.1,581.8 485.5,581.8 	"/>
-	<polygon id="校史馆" class="st4" points="515.3,732.8 515.3,684.6 362.1,685.4 362.1,732.8 	"/>
-	<rect id="南一楼" x="362.1" y="732.8" class="st4" width="153.2" height="55.9"/>
-	<rect id="南四楼" x="362.1" y="788.7" class="st4" width="98.5" height="75.3"/>
-	<polygon id="西五楼" class="st4" points="362.1,751.5 297,777.9 285.7,715.5 362.1,685.4 	"/>
-	<polygon id="建规学院" class="st4" points="354.2,864 362.1,864 362.1,751.5 297,777.9 314.9,864 	"/>
-	<rect id="游泳馆" x="460.6" y="788.7" class="st4" width="103.9" height="75.3"/>
-	<polygon id="南区宿舍" class="st4" points="603.3,685.4 603.3,788.7 515.3,788.7 515.3,684.6 	"/>
-	<rect id="光谷体育馆" x="564.5" y="788.7" class="st4" width="77.5" height="75.3"/>
-	<polygon id="新闻学院" class="st4" points="564.5,631.3 564.5,685.1 485.5,684.8 485.5,631.3 	"/>
-	<rect id="教科院" x="564.5" y="644.7" class="st4" width="57.9" height="40.4"/>
-	<rect id="机械学院" x="485.5" y="533.7" class="st4" width="136.9" height="97.6"/>
-	<rect id="东五楼" x="564.5" y="607.5" class="st4" width="57.9" height="37.2"/>
-	<polygon id="东区宿舍" class="st4" points="720.7,581.8 622.4,581.8 622.4,685.1 720.7,684.6 	"/>
-	<polygon id="东一食堂" class="st4" points="684,612.9 684,684.6 622.4,685.1 622.4,612.9 	"/>
-	<polygon id="东三食堂" class="st4" points="653.2,649 684,649 684,684.6 653.2,685.1 	"/>
-	<rect id="东四食堂" x="653.2" y="612.9" class="st4" width="30.8" height="36.1"/>
-	<rect id="中操" x="603.3" y="685.4" class="st4" width="72.3" height="103.3"/>
-	<polygon id="沁苑" class="st4" points="720.7,788.7 720.7,684.6 675.5,685.4 675.5,788.7 	"/>
-	<polygon id="博士生公寓" class="st4" points="720.7,581.8 622.4,581.8 622.4,533.7 564.5,533.7 564.5,431.9 720.7,431.9 	"/>
+	<polygon id="西十二" class="st3" points="209,837 280,810.5 294,870.4 222,895.4 	"/>
+	<polygon id="西操" class="st3" points="191.6,763 265.1,736.7 280,810.5 209,837 	"/>
+	<polygon id="电气楼" class="st3" points="166,662.8 243,635.1 265.1,736.7 191.6,763 	"/>
+	<polygon id="紫菘" class="st3" points="179,713.7 101,711.7 91.6,736.2 44.9,783.3 51.2,813.2 85.8,800.6 90.7,822.6 
+		196.1,783.8 	"/>
+	<polygon id="西区宿舍" class="st3" points="145.4,578.9 226.6,551 287.2,548.3 287.2,650.3 246.7,652.2 243,635.1 166,662.8 
+		155.3,619 	"/>
+	<polygon id="西二食堂" class="st3" points="191.2,607.2 155.3,619 166,662.8 204,649.1 	"/>
+	<polygon id="西一食堂" class="st3" points="235.8,591.9 243,635.1 204,649.1 191.2,607.2 	"/>
+	<polygon id="百景园" class="st3" points="287.2,500.8 287.2,548.3 226.6,551 217.1,500.8 	"/>
+	<polygon id="喻园" class="st3" points="287.2,366.5 655.7,369.2 655.7,500.8 287.2,500.8 	"/>
+	<polygon id="青年园" class="st3" points="345.1,591.9 345.1,727.7 268.7,754.6 246.7,652.2 287.2,650.3 287.2,591.9 	"/>
+	<rect id="集贸市场" x="376.7" y="451.3" class="st3" width="50.5" height="49.5"/>
+	<rect id="集锦园" x="427.2" y="451.3" class="st3" width="41.3" height="24.8"/>
+	<rect id="喻园食堂" x="427.2" y="476.1" class="st3" width="41.3" height="24.8"/>
+	<rect id="百味小吃城" x="468.5" y="451.3" class="st3" width="48" height="49.5"/>
+	<rect id="校医院" x="396.2" y="410.5" class="st3" width="107" height="40.8"/>
+	<polygon id="喻家山" class="st3" points="252.2,365.7 655.7,369.2 839.5,369.2 855.1,270.2 252.2,270.2 	"/>
+	<rect id="西边高层" x="217.1" y="366.5" class="st3" width="70.1" height="134.3"/>
+	<polygon id="喻园小区" class="st3" points="818,500.8 655.7,500.8 655.7,369.2 839.5,369.2 	"/>
+	<rect id="接待中心" x="287.2" y="500.8" class="st3" width="89.5" height="91.1"/>
+	<polygon id="幼儿园" class="st3" points="427.2,548.9 376.7,548.3 376.7,500.8 427.2,501.3 	"/>
+	<polygon id="小学" class="st3" points="468.5,548.9 468.5,500.8 427.2,501.3 427.2,548.9 	"/>
+	<polygon id="管理学院" class="st3" points="547.5,548.3 547.5,500.8 468.5,500.8 468.5,548.9 	"/>
+	<polygon id="绝望坡" class="st3" points="818,500.8 703.7,500.8 703.7,534 812.1,534 	"/>
+	<polygon id="大活" class="st3" points="376.7,591.9 468.5,591.9 468.5,548.9 376.7,548.3 	"/>
+	<polygon id="梧桐语" class="st3" points="547.5,591.9 547.5,548.3 468.5,548.9 468.5,591.9 	"/>
+	<rect id="科技楼" x="345.1" y="591.9" class="st3" width="123.4" height="43"/>
+	<polygon id="西体" class="st3" points="287.2,673.3 251.5,674.4 258.9,709.2 287.2,709.2 	"/>
+	<polygon id="图书馆" class="st3" points="468.5,727.2 345.1,727.7 345.1,635 468.5,635 	"/>
+	<polygon id="校史馆" class="st3" points="498.3,770.1 498.3,727 345.1,727.7 345.1,770.1 	"/>
+	<rect id="南一楼" x="345.1" y="770.1" class="st3" width="153.2" height="50"/>
+	<rect id="南四楼" x="345.1" y="820.1" class="st3" width="98.5" height="67.4"/>
+	<polygon id="西五楼" class="st3" points="345.1,786.8 280,810.5 268.7,754.6 345.1,727.7 	"/>
+	<polygon id="建规学院" class="st3" points="337.2,887.5 345.1,887.5 345.1,786.8 280,810.5 297.9,887.5 	"/>
+	<rect id="游泳馆" x="443.6" y="820.1" class="st3" width="103.9" height="67.4"/>
+	<polygon id="南区宿舍" class="st3" points="586.3,727.7 586.3,820.1 498.3,820.1 498.3,727 	"/>
+	<rect id="光谷体育馆" x="547.5" y="820.1" class="st3" width="77.5" height="67.4"/>
+	<polygon id="新闻学院" class="st3" points="547.5,679.3 547.5,727.4 468.5,727.2 468.5,679.3 	"/>
+	<rect id="教科院" x="547.5" y="691.3" class="st3" width="57.9" height="36.2"/>
+	<rect id="机械学院" x="468.5" y="591.9" class="st3" width="136.9" height="87.3"/>
+	<rect id="东五楼" x="547.5" y="658" class="st3" width="57.9" height="33.3"/>
+	<polygon id="东区宿舍" class="st3" points="703.7,635 605.4,635 605.4,727.4 703.7,727 	"/>
+	<polygon id="东一食堂" class="st3" points="667,662.8 667,727 605.4,727.4 605.4,662.8 	"/>
+	<polygon id="东三食堂" class="st3" points="636.2,695.1 667,695.1 667,727 636.2,727.4 	"/>
+	<rect id="东四食堂" x="636.2" y="662.8" class="st3" width="30.8" height="32.3"/>
+	<rect id="中操" x="586.3" y="727.7" class="st3" width="72.3" height="92.5"/>
+	<polygon id="沁苑" class="st3" points="703.7,820.1 703.7,727 658.5,727.7 658.5,820.1 	"/>
+	<polygon id="居民区_1_" class="st3" points="703.7,635 605.4,635 605.4,591.9 547.5,591.9 547.5,500.8 703.7,500.8 	"/>
+	<polygon id="附中" class="st3" points="839.5,369.2 898.6,369.2 898.6,451.3 828,451.3 	"/>
+	<polygon id="驾校" class="st3" points="898.6,500.8 898.6,451.3 828,451.3 817,500.8 	"/>
+	<polygon id="东九楼" class="st3" points="898.6,573.4 898.6,500.8 817,500.8 812.1,534 812.1,573.4 	"/>
+	<rect id="国光" x="812.1" y="573.4" class="st3" width="86.5" height="96.7"/>
+	<rect id="启明学院" x="812.1" y="670.1" class="st3" width="86.5" height="78.5"/>
+	<rect id="韵苑" x="898.6" y="369.2" class="st3" width="134.4" height="131.7"/>
+	<rect id="韵苑食堂" x="898.6" y="451.3" class="st3" width="55.2" height="49.5"/>
+	<rect id="爱因斯坦广场" x="988.5" y="451.3" class="st3" width="44.5" height="49.5"/>
+	<polygon id="东操" class="st3" points="1033,573.4 1033,500.8 988.5,500.8 898.6,500.8 898.6,573.4 988.5,573.4 	"/>
+	<polygon id="韵苑体育馆" class="st3" points="988.5,534 988.5,500.8 1033,500.8 1033,573.4 988.5,573.4 	"/>
+	<rect id="CBD" x="898.6" y="573.4" class="st3" width="55.2" height="175.1"/>
+	<rect id="东十二楼" x="953.8" y="573.4" class="st3" width="79.2" height="48.3"/>
+	<rect id="生科院" x="953.8" y="621.7" class="st3" width="79.2" height="48.3"/>
+	<rect id="工创中心" x="1033" y="451.3" class="st3" width="47" height="122.1"/>
+	<rect id="东区图书馆" x="953.8" y="670.1" class="st3" width="39.6" height="78.5"/>
+	<polygon id="光电大楼" class="st3" points="993.4,887.5 993.4,670.1 1033,670.1 1070.9,887.5 	"/>
+	<rect id="居民区" x="898.6" y="748.5" class="st3" width="94.8" height="139"/>
+	<rect id="博士生公寓" x="605.4" y="567.9" class="st3" width="61.6" height="67.1"/>
+	<polygon id="同济医学院" class="st3" points="110.9,131.1 181.1,62.4 313.9,124.5 320.2,164.8 215.6,210.6 	"/>
+	<polygon id="网安基地" class="st3" points="430.2,196.5 574,196.5 574,73.5 425.1,90.3 394.5,151.5 	"/>
 </g>
-<path id="曾母暗沙" d="M827 941L827 897L908 897L908 941"/>
-<g id="地名">
 
-	<text transform="matrix(1 0 0 1 861 488)" class="st0 st1 st5">山</text>
-	<text transform="matrix(1 0 0 1 861 518)" class="st0 st1 st5">东</text>
-	<text transform="matrix(1 0 0 1 605.0176 630.598)" class="st0 st1 st6">湖北</text>
-	<text transform="matrix(1 0 0 1 605.0176 665.3002)" class="st0 st1 st6">湖</text>
-	<text transform="matrix(1 0 0 1 605.0176 679.182)" class="st0 st1 st6">南</text>
-	<text transform="matrix(1 0 0 1 692.0059 656.972)" class="st0 st1 st6">江</text>
-	<text transform="matrix(1 0 0 1 679.0498 688.4359)" class="st0 st1 st6">福</text>
-	<text transform="matrix(1 0 0 1 679.0498 702.3177)" class="st0 st1 st6">建</text>
-	<text transform="matrix(1 0 0 1 716.5293 708.3324)" class="st0 st1 st6">台</text>
-	<text transform="matrix(1 0 0 1 716.5293 722.2133)" class="st0 st1 st6">湾</text>
-	<text transform="matrix(1 0 0 1 577.7178 756.4535)" class="st0 st1 st6">海南</text>
-	<text transform="matrix(1 0 0 1 622.1377 715.7357)" class="st0 st1 st6">广东</text>
-	<text transform="matrix(1 0 0 1 645.7354 666.6888)" class="st0 st1 st6">江</text>
-	<text transform="matrix(1 0 0 1 645.7354 680.5697)" class="st0 st1 st6">西</text>
-	<text transform="matrix(1 0 0 1 556.4336 714.347)" class="st0 st1 st6">广西</text>
-	<text transform="matrix(1 0 0 1 550.418 677.3314)" class="st0 st1 st6">贵州</text>
-	<text transform="matrix(1 0 0 1 556.4336 645.8666)" class="st0 st1 st6">重庆</text>
-	<text transform="matrix(1 0 0 1 643.4219 733.3177)" class="st0 st1 st7">港</text>
-	<text transform="matrix(1 0 0 1 617.5107 733.3177)" class="st0 st1 st7">澳</text>
-
+<g id="地名">	
+	<text transform="matrix(1 0 0 1 923.25 822)" class="st1 st12">居民区</text>
+	<text transform="matrix(1 0 0 1 1013.5 775.5568)"><tspan x="0" y="0" class="st1 st12">光</tspan><tspan x="0" y="17" class="st1 st12">电</tspan><tspan x="0" y="34" class="st1 st12">大</tspan><tspan x="0" y="51" class="st1 st12">楼</tspan></text>
+	<text transform="matrix(1 0 0 1 112.5 767.1574)" class="st1 st11">紫菘</text>
+	<text transform="matrix(1 0 0 1 166 630.5)"><tspan x="0" y="0" class="st1 st13">西二</tspan><tspan x="0" y="14.4" class="st1 st13">食堂</tspan></text>
+	<text transform="matrix(1 0 0 1 207 618.5)"><tspan x="0" y="0" class="st1 st13">西一</tspan><tspan x="0" y="14.4" class="st1 st13">食堂</tspan></text>
+	<text transform="matrix(1 0 0 1 196.1 580.5)" class="st1 st12">西区宿舍</text>
+	<text transform="matrix(1 0 0 1 199.8333 703.3458)" class="st1 st14">西操</text>
+	<text transform="matrix(1 0 0 1 205 790.5)" class="st1 st12">电气大楼</text>
+	<text transform="matrix(1 0 0 1 219.5 859.336)" class="st1 st12">西十二楼</text>
+	<text transform="matrix(1 0 0 1 266 688)"><tspan x="0" y="0" class="st1 st13">西</tspan><tspan x="0" y="14.4" class="st1 st13">体</tspan></text>
+	<text transform="matrix(1 0 0 1 309 666)"><tspan x="0" y="0" class="st1 st12">青</tspan><tspan x="0" y="19.2" class="st1 st12">年</tspan><tspan x="0" y="38.4" class="st1 st12">园</tspan></text>
+	<text transform="matrix(1 0 0 1 232 529.5)" class="st1 st15">百景园</text>
+	<text transform="matrix(1 0 0 1 242.9998 408.5)"><tspan x="0" y="0" class="st1 st14">西</tspan><tspan x="0" y="20.4" class="st1 st14">边</tspan><tspan x="0" y="40.8" class="st1 st14">高</tspan><tspan x="0" y="61.2" class="st1 st14">层</tspan></text>
+	<text transform="matrix(1 0 0 1 513.1667 327.5)" class="st1 st16">瑜家山</text>
+	<text transform="matrix(1 0 0 1 429 433.6441)" class="st1 st13">校医院</text>
+	<text transform="matrix(1 0 0 1 329 430)" class="st1 st17">喻</text>
+	<text transform="matrix(1 0 0 1 567 430)" class="st1 st17">园</text>
+	<text transform="matrix(1 0 0 1 390.5 473.5)"><tspan x="0" y="0" class="st1 st13">集贸</tspan><tspan x="0" y="14.4" class="st1 st13">市场</tspan></text>
+	<text transform="matrix(1 0 0 1 432.5 467.25)" class="st1 st18">集锦园</text>
+	<text transform="matrix(1 0 0 1 430.25 491.75)" class="st1 st19">喻园食堂</text>
+	<text transform="matrix(1 0 0 1 474.75 473.5)"><tspan x="0" y="0" class="st1 st13">百味园</tspan><tspan x="0" y="14" class="st1 st13">小吃城</tspan></text>
+	<text transform="matrix(1 0 0 1 297 551.0205)" class="st1 st20">接待中心</text>
+	<text transform="matrix(1 0 0 1 278.5 775.5568)" class="st1 st15">水利学院</text>
+	<text transform="matrix(1 0 0 1 292 842)" class="st1 st13">建规学院</text>
+	<text transform="matrix(1 0 0 1 373 688)" class="st1 st21">图书馆</text>
+	<text transform="matrix(1 0 0 1 698.333 443.6665)" class="st1 st16">喻园小区</text>
+	<text transform="matrix(1 0 0 1 735.0003 521.6663)" class="st1 st20">绝望坡</text>
+	<text transform="matrix(1 0 0 1 596.5 539)" class="st1 st20">居民区</text>
+	<text transform="matrix(1 0 0 1 382.3333 529.5)" class="st1 st22">幼儿园</text>
+	<text transform="matrix(1 0 0 1 435.0003 529.5)" class="st1 st22">小学</text>
+	<text transform="matrix(1 0 0 1 376.6999 618.5)" class="st1 st20">科技楼</text>
+	<text transform="matrix(1 0 0 1 407 567.8909)"><tspan x="0" y="0" class="st1 st13">大学生</tspan><tspan x="-6" y="14" class="st1 st13">活动中心</tspan></text>
+	<text transform="matrix(1 0 0 1 474.75 529.5)" class="st1 st12">管理学院</text>
+	<text transform="matrix(1 0 0 1 484.25 575)" class="st1 st12">梧桐语</text>
+	<text transform="matrix(1 0 0 1 498.3 634.9695)" class="st1 st12">机械学院</text>
+	<text transform="matrix(1 0 0 1 479 707.1632)" class="st1 st23">新闻学院</text>
+	<text transform="matrix(1 0 0 1 555.5 678.9577)" class="st1 st23">东五楼</text>
+	<text transform="matrix(1 0 0 1 555.5 713.4577)" class="st1 st23">教科院</text>
+	<text transform="matrix(1 0 0 1 609.5 691.2189)"><tspan x="0" y="0" class="st1 st13">东一</tspan><tspan x="0" y="14" class="st1 st13">食堂</tspan></text>
+	<text transform="matrix(1 0 0 1 640 684)" class="st1 st13">东四</text>
+	<text transform="matrix(1 0 0 1 640 715)" class="st1 st13">东三</text>
+	<text transform="matrix(1 0 0 1 615.2 599.0003)"><tspan x="0" y="0" class="st1 st23">博士生</tspan><tspan x="7" y="14" class="st1 st23">公寓</tspan></text>
+	<text transform="matrix(1 0 0 1 626.55 652.6667)" class="st1 st23">东区宿舍</text>
+	<text transform="matrix(1 0 0 1 397.7 753)" class="st1 st12">校史馆</text>
+	<text transform="matrix(1 0 0 1 397.7 798.6663)" class="st1 st12">南一楼</text>
+	<text transform="matrix(1 0 0 1 371.0334 858.3364)" class="st1 st12">南四楼</text>
+	<text transform="matrix(1 0 0 1 471.5498 858.3369)" class="st1 st12">游泳馆</text>
+	<text transform="matrix(1 0 0 1 570.2501 850.0034)"><tspan x="0" y="0" class="st1 st12">光谷</tspan><tspan x="-8" y="17" class="st1 st12">体育馆</tspan></text>
+	<text transform="matrix(1 0 0 1 510.6668 777.667)" class="st1 st12">南区宿舍</text>
+	<text transform="matrix(1 0 0 1 606.7831 777.6667)" class="st1 st12">中操</text>
+	<text transform="matrix(1 0 0 1 673.1 770.1108)"><tspan x="0" y="0" class="st1 st12">沁</tspan><tspan x="0" y="17" class="st1 st12">苑</tspan></text>
+	<text transform="matrix(1 0 0 1 851.5 416.25)" class="st1 st12">附中</text>
+	<text transform="matrix(1 0 0 1 841.7807 481.5)" class="st1 st12">驾校</text>
+	<text transform="matrix(1 0 0 1 831.3482 542.5)" class="st1 st12">东九楼</text>
+	<text transform="matrix(1 0 0 1 838.25 625.75)" class="st1 st12">国光</text>
+	<text transform="matrix(1 0 0 1 822 713.4577)" class="st1 st12">启明学院</text>
+	<text transform="matrix(1 0 0 1 943.7982 416.3335)" class="st1 st24">韵苑</text>
+	<text transform="matrix(1 0 0 1 913.2193 470.6668)"><tspan x="0" y="0" class="st1 st22">韵苑</tspan><tspan x="0" y="17" class="st1 st22">食堂</tspan></text>
+	<text transform="matrix(1 0 0 1 992.7368 470.667)"><tspan x="0" y="0" class="st1 st19">爱因斯坦</tspan><tspan x="9" y="17" class="st1 st19">广场</tspan></text>
+	<text transform="matrix(1 0 0 1 1048.5 491.75)"><tspan x="0" y="0" class="st1 st12">工</tspan><tspan x="0" y="17" class="st1 st12">创</tspan><tspan x="0" y="34" class="st1 st12">中</tspan><tspan x="0" y="51" class="st1 st12">心</tspan></text>
+	<text transform="matrix(1 0 0 1 910.2193 656)"><tspan x="0" y="0" class="st1 st12">东边</tspan><tspan x="-0.5" y="17" class="st1 st12">CBD</tspan></text>
+	<text transform="matrix(1 0 0 1 961.4211 602.3333)" class="st1 st12">东十二楼</text>
+	<text transform="matrix(1 0 0 1 926.0088 542.5)" class="st1 st11">东操</text>
+	<text transform="matrix(1 0 0 1 998.7368 530.5)"><tspan x="0" y="0" class="st1 st13">韵苑</tspan><tspan x="-6" y="17" class="st1 st13">体育馆</tspan></text>
+	<text transform="matrix(1 0 0 1 969.4211 650)" class="st1 st12">生科院</text>
+	<text transform="matrix(1 0 0 1 966 698)"><tspan x="0" y="0" class="st1 st12">图</tspan><tspan x="0" y="17" class="st1 st12">书</tspan><tspan x="0" y="34" class="st1 st12">馆</tspan></text>
+	<text transform="matrix(1 0 0 1 153.7499 142.6698)" class="st1 st16">同济医学院</text>
+	<text transform="matrix(1 0 0 1 447.7 145.5135)" class="st1 st16">网安基地</text>
 </g>
-<a href="https://lab.magiconch.com" target="_blank">
-	<text x="37" y="937">神奇海螺试验场</text>
-</a>
-<text id="分数" x="35" y="883">分数</text>
+<text id="分数" transform="matrix(1 0 0 1 796.502 184.8595)" class="st0 st1 st2">分数</text>
 <g id="等级">
-	<path fill="#FF7E7E" d="M983 450h120v50H983Z"/>
-	<path fill="#FFB57E" d="M983 500h120v50H983Z"/>
-	<path fill="#FFE57E" d="M983 550h120v50H983Z"/>
-	<path fill="#A8FFBE" d="M983 600h120v50H983Z"/>
-	<path fill="#88AEFF" d="M983 650h120v50H983Z"/>
-	<path fill="#FFF" d="M983 700h120v50H983Z"/>
-	<path class="边框" d="M983 448h120v304H983Z"/>
-	<text x="1000" y="484">居住５</text>
-	<text x="1000" y="535">短居４</text>
-	<text x="1000" y="585">游玩３</text>
-	<text x="1000" y="635">出差２</text>
-	<text x="1000" y="685">路过１</text>
-	<text x="998" y="735">没去过</text>
+	<path class="st4" d="M44.9,315.5h81.4v33.9H44.9V315.5z"/>
+	<path class="st5" d="M44.9,349.4h81.4v33.9H44.9V349.4z"/>
+	<path class="st6" d="M44.9,383.3h81.4v33.9H44.9V383.3z"/>
+	<path class="st7" d="M44.9,417.3h81.4v33.9H44.9V417.3z"/>
+	<path class="st8" d="M44.9,451.2h81.4v33.9H44.9V451.2z"/>
+	<path class="st9" d="M44.9,485.1h81.4V519H44.9V485.1z"/>
+	<path class="st10" d="M44.9,313.5h81.4V519H44.9V313.5z"/>
+	<text transform="matrix(1 0 0 1 59.9004 340.5)" class="st0 st1 st11">常住５</text>
+	<text transform="matrix(1 0 0 1 59.9008 374)" class="st0 st1 st11">常去４</text>
+	<text transform="matrix(1 0 0 1 59.9004 407)" class="st0 st1 st11">有时３</text>
+	<text transform="matrix(1 0 0 1 59.9004 440)" class="st0 st1 st11">偶尔２</text>
+	<text transform="matrix(1 0 0 1 59.9004 474.5)" class="st0 st1 st11">路过１</text>
+	<text transform="matrix(1 0 0 1 55.4 508)" class="st0 st1 st11">没去过</text>
 </g>
 </svg>
