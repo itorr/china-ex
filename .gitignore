@@ -1,6 +1,11 @@
 Un/*
 *.css
 package-lock.json
+china-ex-ai.svg
 china-ex-fixed.svg
 dist/*
 html/字体.woff
+
+node_modules
+
+.DS_STORE

@@ -5,7 +5,7 @@
 text{
 	font-family: 'Tensentype-JiaLiDaYuanJF',sans-serif;
 	fill:#111;
-	font-size:30px;
+	font-size:20px;
 }
 #标题,
 #分数{font-size:60px;}
@@ -35,89 +35,80 @@ text{
 </style>
 <text x="425" y="119" id="标题">中国制霸</text>
 <g id="地区">
-	<path id="黑龙江" d="M1100,33v158H894V33H1100z"/>
-	<path id="甘肃" d="M585,191v371H351V191H585z"/>
-	<path id="吉林" d="M894,191v85h206v-85H894z"/>
-	<path id="内蒙古" d="M894,33H738v158H499v227h227l168-108V33z"/>
-	<path id="山东" d="M779,446v92h139v-92H779z"/>
-	<path id="河北" d="M861,310H726v180h117v-95h18V310z"/>
-	<path id="北京" d="M763 336h80v52H763Z"/>
-	<path id="天津" d="M763,388h80v43h-80V388z"/>
-	<path id="西藏" d="M389,770H35V466h354V770z"/>
-	<path id="新疆" d="M35,466V87h316v379H35z"/>
-	<path id="河南" d="M779,490H654v117h125V490z"/>
-	<path id="安徽" d="M852,538h-73v138h73V538z"/>
-	<path id="山西" d="M654,418v108h72V418H654z"/>
-	<path id="湖北" d="M779,688v-81H654v81H779z"/>
-	<path id="青海" d="M442,626V395H228v231H442z"/>
-	<path id="辽宁" d="M861,276v119h154V276H861z"/>
-	<path id="广东" d="M823,788H679v81h144V788z"/>
-	<path id="江苏" d="M899,538v87h-62v-87H899z"/>
-	<path id="江西" d="M852,806V676H749v130H852z"/>
-	<path id="浙江" d="M852,625l74,1v107h-74V625z"/>
-	<path id="福建" d="M823,733v107h73V733H823z"/>
-	<path id="上海" d="M882 602h72v47H882Z"/>
-	<path id="陕西" d="M585,653h69V418h-69V653z"/>
-	<path id="湖南" d="M654,688h95v100h-95V688z"/>
-	<path id="广西" d="M679,788H537v81h142V788z"/>
-	<path id="香港" d="M758 856h42v33H758Z"/>
-	<path id="澳门" d="M701 856h45v33H701Z"/>
-	<path id="贵州" d="M654,709H537v79h117V709z"/>
-	<path id="重庆" d="M565 653h89v56H565Z"/>
-	<path id="四川" d="M565,737v-84h20v-91H389v175H565z"/>
-	<path id="云南" d="M537,737H389v115h148V737z"/>
-	<path id="宁夏" d="M585,418h-86v96h86V418z"/>
-	<path id="台湾" d="M918 788h45v87H918Z"/>
-	<path id="海南" d="M615 897h78v46H615Z"/>
+	<path id="山东" class="st3" d="M1536.4,823v92h139v-92H1536.4z"/>
+	<polygon id="西十二" class="st4" points="226,807.5 297,777.9 311,844.9 239,872.8 	"/>
+	<polygon id="西操" class="st4" points="208.6,724.9 282.1,695.5 297,777.9 226,807.5 	"/>
+	<polygon id="电气楼" class="st4" points="183,612.9 260,581.9 282.1,695.5 208.6,724.9 	"/>
+	<polygon id="紫菘" class="st4" points="196,669.8 118,667.5 108.6,694.9 61.9,747.5 68.2,780.9 102.8,766.9 107.7,791.5 
+		213.1,748.1 	"/>
+	<polygon id="西区宿舍" class="st4" points="162.4,519.1 243.6,488 304.2,485 304.2,598.9 263.7,601 260,581.9 183,612.9 
+		172.3,564 	"/>
+	<polygon id="西二食堂" class="st4" points="208.2,550.8 172.3,564 183,612.9 221,597.6 	"/>
+	<polygon id="西一食堂" class="st4" points="252.8,533.7 260,581.9 221,597.6 208.2,550.8 	"/>
+	<polygon id="百景园" class="st4" points="304.2,431.9 304.2,485 243.6,488 234.1,431.9 	"/>
+	<polygon id="喻园" class="st4" points="304.2,281.8 672.7,284.8 672.7,431.9 304.2,431.9 	"/>
+	<polygon id="青年园" class="st4" points="362.1,533.7 362.1,685.4 285.7,715.5 263.7,601 304.2,598.9 304.2,533.7 	"/>
+	<rect id="集贸市场" x="393.7" y="376.6" class="st4" width="50.5" height="55.3"/>
+	<rect id="集锦园" x="444.2" y="376.6" class="st4" width="41.3" height="27.7"/>
+	<rect id="喻园食堂" x="444.2" y="404.3" class="st4" width="41.3" height="27.7"/>
+	<rect id="百味小吃城" x="485.5" y="376.6" class="st4" width="48" height="55.3"/>
+	<rect id="校医院" x="413.2" y="331" class="st4" width="107" height="45.6"/>
+	<polygon id="喻家山" class="st4" points="269.2,280.9 672.7,284.8 856.5,284.8 872.1,174.2 269.2,174.2 	"/>
+	<rect id="西边高层" x="234.1" y="281.8" class="st4" width="70.1" height="150.1"/>
+	<polygon id="喻园小区" class="st4" points="835,431.9 672.7,431.9 672.7,284.8 856.5,284.8 	"/>
+	<rect id="接待中心" x="304.2" y="431.9" class="st4" width="89.5" height="101.8"/>
+	<polygon id="幼儿园" class="st4" points="444.2,485.6 393.7,485 393.7,431.9 444.2,432.5 	"/>
+	<polygon id="小学" class="st4" points="485.5,485.6 485.5,431.9 444.2,432.5 444.2,485.6 	"/>
+	<polygon id="管理学院" class="st4" points="564.5,485 564.5,431.9 485.5,431.9 485.5,485.6 	"/>
+	<polygon id="绝望坡" class="st4" points="835,431.9 720.7,431.9 720.7,469 829.1,469 	"/>
+	<polygon id="大活" class="st4" points="393.7,533.7 485.5,533.7 485.5,485.6 393.7,485 	"/>
+	<polygon id="梧桐语" class="st4" points="564.5,533.7 564.5,485 485.5,485.6 485.5,533.7 	"/>
+	<rect id="科技楼" x="362.1" y="533.7" class="st4" width="123.4" height="48.1"/>
+	<polygon id="西体" class="st4" points="304.2,624.6 268.5,625.9 275.9,664.7 304.2,664.7 	"/>
+	<polygon id="图书馆" class="st4" points="485.5,684.8 362.1,685.4 362.1,581.8 485.5,581.8 	"/>
+	<polygon id="校史馆" class="st4" points="515.3,732.8 515.3,684.6 362.1,685.4 362.1,732.8 	"/>
+	<rect id="南一楼" x="362.1" y="732.8" class="st4" width="153.2" height="55.9"/>
+	<rect id="南四楼" x="362.1" y="788.7" class="st4" width="98.5" height="75.3"/>
+	<polygon id="西五楼" class="st4" points="362.1,751.5 297,777.9 285.7,715.5 362.1,685.4 	"/>
+	<polygon id="建规学院" class="st4" points="354.2,864 362.1,864 362.1,751.5 297,777.9 314.9,864 	"/>
+	<rect id="游泳馆" x="460.6" y="788.7" class="st4" width="103.9" height="75.3"/>
+	<polygon id="南区宿舍" class="st4" points="603.3,685.4 603.3,788.7 515.3,788.7 515.3,684.6 	"/>
+	<rect id="光谷体育馆" x="564.5" y="788.7" class="st4" width="77.5" height="75.3"/>
+	<polygon id="新闻学院" class="st4" points="564.5,631.3 564.5,685.1 485.5,684.8 485.5,631.3 	"/>
+	<rect id="教科院" x="564.5" y="644.7" class="st4" width="57.9" height="40.4"/>
+	<rect id="机械学院" x="485.5" y="533.7" class="st4" width="136.9" height="97.6"/>
+	<rect id="东五楼" x="564.5" y="607.5" class="st4" width="57.9" height="37.2"/>
+	<polygon id="东区宿舍" class="st4" points="720.7,581.8 622.4,581.8 622.4,685.1 720.7,684.6 	"/>
+	<polygon id="东一食堂" class="st4" points="684,612.9 684,684.6 622.4,685.1 622.4,612.9 	"/>
+	<polygon id="东三食堂" class="st4" points="653.2,649 684,649 684,684.6 653.2,685.1 	"/>
+	<rect id="东四食堂" x="653.2" y="612.9" class="st4" width="30.8" height="36.1"/>
+	<rect id="中操" x="603.3" y="685.4" class="st4" width="72.3" height="103.3"/>
+	<polygon id="沁苑" class="st4" points="720.7,788.7 720.7,684.6 675.5,685.4 675.5,788.7 	"/>
+	<polygon id="博士生公寓" class="st4" points="720.7,581.8 622.4,581.8 622.4,533.7 564.5,533.7 564.5,431.9 720.7,431.9 	"/>
 </g>
 <path id="曾母暗沙" d="M827 941L827 897L908 897L908 941"/>
 <g id="地名">
-	<text x="659" y="266">内蒙古</text>
-	<text x="951" y="123">黑龙江</text>
-	<text x="966" y="242">吉林</text>
-	<text x="906" y="347">辽宁</text>
-	<text x="773" y="371">北京</text>
-	<text x="773" y="419">天津</text>
-	<text x="751" y="469">河北</text>
-	<text x="861" y="488">山</text>
-	<text x="861" y="518">东</text>
-	<text x="685" y="579">河南</text>
-	<text x="684" y="658">湖北</text>
-	<text x="684" y="733">湖</text>
-	<text x="684" y="763">南</text>
-	<text x="846" y="575">江</text>
-	<text x="846" y="605">苏</text>
-	<text x="888" y="635">上海</text>
-	<text x="872" y="685">浙</text>
-	<text x="872" y="715">江</text>
-	<text x="844" y="783">福</text>
-	<text x="844" y="813">建</text>
-	<text x="925" y="826">台</text>
-	<text x="925" y="856">湾</text>
-	<text x="625" y="930">海南</text>
-	<text x="721" y="842">广东</text>
-	<text x="772" y="736">江</text>
-	<text x="772" y="766">西</text>
-	<text x="793" y="603">安</text>
-	<text x="793" y="633">徽</text>
-	<text x="674" y="466">山</text>
-	<text x="674" y="496">西</text>
-	<text x="604" y="536">陕</text>
-	<text x="604" y="566">西</text>
-	<text x="527" y="460">宁</text>
-	<text x="527" y="490">夏</text>
-	<text x="411" y="304">甘</text>
-	<text x="411" y="334">肃</text>
-	<text x="301" y="520">青海</text>
-	<text x="453" y="660">四川</text>
-	<text x="432" y="805">云南</text>
-	<text x="579" y="839">广西</text>
-	<text x="566" y="759">贵州</text>
-	<text x="579" y="691">重庆</text>
-	<text x="104" y="639">西藏</text>
-	<text x="163" y="288">新疆</text>
-	<text x="767" y="880" class="fs24">港</text>
-	<text x="711" y="880" class="fs24">澳</text>
+
+	<text transform="matrix(1 0 0 1 861 488)" class="st0 st1 st5">山</text>
+	<text transform="matrix(1 0 0 1 861 518)" class="st0 st1 st5">东</text>
+	<text transform="matrix(1 0 0 1 605.0176 630.598)" class="st0 st1 st6">湖北</text>
+	<text transform="matrix(1 0 0 1 605.0176 665.3002)" class="st0 st1 st6">湖</text>
+	<text transform="matrix(1 0 0 1 605.0176 679.182)" class="st0 st1 st6">南</text>
+	<text transform="matrix(1 0 0 1 692.0059 656.972)" class="st0 st1 st6">江</text>
+	<text transform="matrix(1 0 0 1 679.0498 688.4359)" class="st0 st1 st6">福</text>
+	<text transform="matrix(1 0 0 1 679.0498 702.3177)" class="st0 st1 st6">建</text>
+	<text transform="matrix(1 0 0 1 716.5293 708.3324)" class="st0 st1 st6">台</text>
+	<text transform="matrix(1 0 0 1 716.5293 722.2133)" class="st0 st1 st6">湾</text>
+	<text transform="matrix(1 0 0 1 577.7178 756.4535)" class="st0 st1 st6">海南</text>
+	<text transform="matrix(1 0 0 1 622.1377 715.7357)" class="st0 st1 st6">广东</text>
+	<text transform="matrix(1 0 0 1 645.7354 666.6888)" class="st0 st1 st6">江</text>
+	<text transform="matrix(1 0 0 1 645.7354 680.5697)" class="st0 st1 st6">西</text>
+	<text transform="matrix(1 0 0 1 556.4336 714.347)" class="st0 st1 st6">广西</text>
+	<text transform="matrix(1 0 0 1 550.418 677.3314)" class="st0 st1 st6">贵州</text>
+	<text transform="matrix(1 0 0 1 556.4336 645.8666)" class="st0 st1 st6">重庆</text>
+	<text transform="matrix(1 0 0 1 643.4219 733.3177)" class="st0 st1 st7">港</text>
+	<text transform="matrix(1 0 0 1 617.5107 733.3177)" class="st0 st1 st7">澳</text>
+
 </g>
 <a href="https://lab.magiconch.com" target="_blank">
 	<text x="37" y="937">神奇海螺试验场</text>
