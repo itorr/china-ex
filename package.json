@@ -10,9 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/itorr/china-ex.git"
   },
-  "keywords": [
-    "china"
-  ],
+  "keywords": ["china"],
   "author": "itorr",
   "license": "MIT",
   "bugs": {
