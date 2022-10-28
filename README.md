@@ -1,59 +1,39 @@
-![中国制霸生成器](cover.png)
-# 中国制霸生成器
-中国三十四省级行政区域制霸标记生成工具
+# 大湾区制霸：粤港澳大湾区制霸标记生成器
 
-https://lab.magiconch.com/china-ex/
+[![](https://yusancky.github.io/images/GBA-ex/GBA-ex.jpg)](https://gba-ex.netlify.app/)
 
-有感兴趣画简化矢量地图的小伙伴欢迎来一起整活儿~ 
+## 简介
 
-## [全球版在这里！🤗](https://github.com/itorr/world-ex)
+粤港澳大湾区（GBA）是中华人民共和国开放程度最高、经济活力最强的区域之一，在国家发展大局中具重要战略地位。大湾区包括香港特别行政区、澳门特别行政区和珠三角九市（广东省广州市、深圳市、珠海市、佛山市、惠州市、东莞市、中山市、江门市、肇庆市），总面积约 $5.6$ 万平方公里。
 
-## 功能
-可以在线标记 居住、短居、游玩、出差、路过 标记后可生成图片进行社区分享
+十一城，你曾踏上何处？
 
-标记过的信息会记录到本地存储，有什么新进展再次打开网页更新即可
+快使用[大湾区制霸](https://gba-ex.netlify.app/)标记吧！标记完成后，信息将会自动存储至本地，有新的进展可以再次打开网页更新！你还可以生成图片进行分享哦！
 
 ## 说明
-简化地图在保留了地缘相接特征的基础上把省级行政区域尽可能简化成了方框，目标是把省级行政区域之间的关系通过画面展现到一目了然的程度
 
-仅三十四省级行政区域可标记，九段线西沙南沙等群岛在地图上有标示
+本作品衍生自@itorr 制作的[中国制霸生成器](https://github.com/itorr/china-ex)。
 
-## 关于等级
+本作品的行政区域均以城市为单位进行划分，共计十一个。
 
-我的个人标准
+由于地图大小受限，本作品的地图将香港特别行政区标记为“港”，澳门特别行政区标记为“澳门”，其它城市均在广东省而不标记省份。
 
- - 居住：住过年以上
- - 短居：住过月以上
- - 游玩：旅行过
- - 出差：去过但完全没玩
- - 路过：汽车火车路过或飞机经停
+## 等级标准
 
-## 提示
-请使用自带浏览器进行保存
+- 居住：居住一年以上
+- 短居：居住一月以上
+- 游玩：旅行过
+- 出差：去过但完全未游玩
+- 路过：乘车路过或乘飞机经停
 
-## 参考 
-参考自 https://zhung.com.tw/japanex/
+## 相关作品
 
-## 衍生
- - 吃货制霸 @lvwzhen https://github.com/lvwzhen/foodie-ex
- - 美国版、欧洲版 @tenpages https://github.com/tenpages/us-level
- - 全球版 @itorr https://github.com/itorr/world-ex
- - 普通/简化切换版 @qianphong https://github.com/qianphong/china-ex-ns
- - 中国马拉松制版 @Likenttt https://github.com/Likenttt/china-city-marathon-ex
- - 福建版 @action-hong https://github.com/action-hong/china-ex
- - 自定义等级分享版 @kf-liu https://github.com/kf-liu/china-ex-pro
-
-## 微博
-https://weibo.com/1197780522/MaCGDCt6N
-
-## GitHub
-https://github.com/itorr/china-ex
-
-## 反馈
-https://github.com/itorr/china-ex/issues
-
-## 使用了
-腾祥嘉丽大圆
-
-## 协议
-允许非商用非盈利的利用
+- 中国 @itorr https://github.com/itorr/china-ex
+- 中国 吃货 @lvwzhen https://github.com/lvwzhen/foodie-ex
+- 美国、欧洲 @tenpages https://github.com/tenpages/us-level
+- 全球 @itorr https://github.com/itorr/world-ex
+- 中国 普通/简化切换 @qianphong https://github.com/qianphong/china-ex-ns
+- 中国 马拉松 @Likenttt https://github.com/Likenttt/china-city-marathon-ex
+- 福建 @action-hong https://github.com/action-hong/china-ex
+- 中国 自定义等级 @kf-liu https://github.com/kf-liu/china-ex-pro
+- 日本： https://zhung.com.tw/japanex/

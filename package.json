@@ -1,22 +1,20 @@
 {
-  "name": "china-ex",
-  "version": "0.0.2",
-  "description": "中国制霸生成器",
+  "name": "gba-ex",
+  "version": "0.0.1-dev",
+  "description": "粤港澳大湾区制霸标记生成器制霸生成器",
   "main": "html/index.html",
   "scripts": {
     "build": "node 生成字体子集.js;node 转译.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/itorr/china-ex.git"
+    "url": "git+https://github.com/yusancky/GBA-ex.git"
   },
-  "keywords": [
-    "china"
-  ],
-  "author": "itorr",
+  "keywords": ["GBA"],
+  "author": "yusancky",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/itorr/china-ex/issues"
+    "url": "https://github.com/yusancky/GBA-ex/issues"
   },
   "files": [
     "html/index.html",
@@ -24,7 +22,7 @@
     "html/脚本.js",
     "html/字体.woff"
   ],
-  "homepage": "https://github.com/itorr/china-ex#readme",
+  "homepage": "https://gba-ex.netlify.app/",
   "dependencies": {
     "axios": "^1.1.3",
     "html-minifier": "^4.0.0",
