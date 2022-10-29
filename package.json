@@ -1,6 +1,6 @@
 {
   "name": "gba-ex",
-  "version": "0.0.1-dev",
+  "version": "1.0.0",
   "description": "粤港澳大湾区制霸标记生成器制霸生成器",
   "main": "html/index.html",
   "scripts": {
