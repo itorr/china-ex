@@ -44,14 +44,12 @@ https://lab.magiconch.com/china-ex/
  - 大湾区版 @yusancky https://github.com/yusancky/GBA-ex
  - 自定义等级分享版 @kf-liu https://github.com/kf-liu/china-ex-pro
 
-## 微博
-https://weibo.com/1197780522/MaCGDCt6N
+## [微博](https://weibo.com/1197780522/MaCGDCt6N)
 
-## GitHub
-https://github.com/itorr/china-ex
+## [GitHub](https://github.com/itorr/china-ex)
 
-## 反馈
-https://github.com/itorr/china-ex/issues
+## [反馈](https://github.com/itorr/china-ex/issues)
+
 
 ## 使用了
 腾祥嘉丽大圆
